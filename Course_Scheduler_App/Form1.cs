@@ -20,6 +20,19 @@ namespace Course_Scheduler_App
             InitializeComponent();
         }
 
+        /*
+        private void parseData(string s)
+        {
+            string currString = "";
+            int pos = 0;
+            for(int i = 0; i < s.length(); i++)
+            {
+                
+            }
+        }
+        */
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             var filePath = string.Empty;
@@ -27,7 +40,7 @@ namespace Course_Scheduler_App
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
                 openFileDialog.InitialDirectory = "c:\\";
-                openFileDialog.Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*";
+                openFileDialog.Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
 
@@ -43,7 +56,6 @@ namespace Course_Scheduler_App
                     {
                         fileContent = reader.ReadToEnd();
                         //displays contents of the file
-
                     }
                 }
             }

@@ -15,6 +15,7 @@ namespace Course_Scheduler_App
         public Form2()
         {
             InitializeComponent();
+            richTextBox1.Text = Form1.fileContent;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -23,5 +24,6 @@ namespace Course_Scheduler_App
             m.Show();
             this.Hide();
         }
+
     }
 }
