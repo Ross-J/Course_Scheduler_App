@@ -10,11 +10,12 @@ using System.Windows.Forms;
 
 namespace Course_Scheduler_App
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
+            richTextBox1.Text = Form1.fileContent;
         }
 
         private void button1_Click(object sender, EventArgs e)

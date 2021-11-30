@@ -51,6 +51,13 @@ namespace Course_Scheduler_App
 
         private void button3_Click(object sender, EventArgs e)
         {
+            var m = new Form3();
+            m.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             var m = new Form2();
             m.Show();
             this.Hide();
