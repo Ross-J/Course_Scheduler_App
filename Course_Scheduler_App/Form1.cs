@@ -20,26 +20,75 @@ namespace Course_Scheduler_App
             InitializeComponent();
         }
 
-        /*
+        
         private void parseData(string s)
         {
-            string currString = "";
+            string subject = "";
+            string number = "";
+            string instructor = "";
+            string days = "";
+            string startTime = "";
+            string endTime = "";
+            string building = "";
+            string room = "";
+
             int pos = 0;
-            for(int i = 0; i < s.length(); i++)
+
+            for(int i = 0; i < s.Length; i++)
             {
-                
+                if(s[i] == ' ')
+                {
+                    continue;
+                }
+                else if(s[i] == ',')
+                {
+                    pos++;
+                }
+                else if(pos == 0)
+                {
+                    subject = subject + s[i];
+                }
+                else if (pos == 1)
+                {
+                    number = number + s[i];
+                }
+                else if (pos == 2)
+                {
+                    instructor = instructor + s[i];
+                }
+                else if (pos == 3)
+                {
+                    days = days + s[i];
+                }
+                else if (pos == 4)
+                {
+                    startTime = startTime + s[i];
+                }
+                else if (pos == 5)
+                {
+                    endTime = endTime + s[i];
+                }
+                else if (pos == 6)
+                {
+                    building = building + s[i];
+                }
+                else
+                {
+                    room = room + s[i];
+                }
+                label3.Text = subject;
             }
+
+
         }
-        */
-
-
+       
         private void button1_Click(object sender, EventArgs e)
         {
             var filePath = string.Empty;
 
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
-                openFileDialog.InitialDirectory = "c:\\";
+                openFileDialog.InitialDirectory = "c:\\users/Ross Jacobson/Downloads";
                 openFileDialog.Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
@@ -54,8 +103,17 @@ namespace Course_Scheduler_App
 
                     using (StreamReader reader = new StreamReader(fileStream))
                     {
-                        fileContent = reader.ReadToEnd();
-                        //displays contents of the file
+                        
+                       
+                        while(!reader.EndOfStream)
+                        {
+             
+                            fileContent = reader.ReadLine();
+                            //displays contents of the file
+
+                            parseData(fileContent);
+                        }
+                        
                     }
                 }
             }
