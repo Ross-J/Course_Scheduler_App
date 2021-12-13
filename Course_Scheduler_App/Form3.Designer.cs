@@ -91,6 +91,7 @@ namespace Course_Scheduler_App
             this.comboBox14 = new System.Windows.Forms.ComboBox();
             this.comboBox15 = new System.Windows.Forms.ComboBox();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox7.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -102,35 +103,39 @@ namespace Course_Scheduler_App
             // 
             this.comboBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox6.FormattingEnabled = true;
-            this.comboBox6.Location = new System.Drawing.Point(557, 69);
+            this.comboBox6.Location = new System.Drawing.Point(418, 56);
+            this.comboBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(73, 21);
+            this.comboBox6.Size = new System.Drawing.Size(56, 17);
             this.comboBox6.TabIndex = 43;
             this.comboBox6.Text = "End Time";
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(1410, 532);
+            this.button4.Location = new System.Drawing.Point(1058, 432);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(203, 47);
+            this.button4.Size = new System.Drawing.Size(152, 38);
             this.button4.TabIndex = 41;
             this.button4.Text = "Submit Schedule";
             this.button4.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(1004, 508);
+            this.button3.Location = new System.Drawing.Point(753, 413);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(118, 24);
+            this.button3.Size = new System.Drawing.Size(88, 20);
             this.button3.TabIndex = 40;
             this.button3.Text = "Remove Course";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(678, 508);
+            this.button2.Location = new System.Drawing.Point(508, 413);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(110, 24);
+            this.button2.Size = new System.Drawing.Size(82, 20);
             this.button2.TabIndex = 39;
             this.button2.Text = "Add Course";
             this.button2.UseVisualStyleBackColor = true;
@@ -139,9 +144,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(728, 69);
+            this.comboBox8.Location = new System.Drawing.Point(546, 56);
+            this.comboBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(60, 21);
+            this.comboBox8.Size = new System.Drawing.Size(46, 17);
             this.comboBox8.TabIndex = 38;
             this.comboBox8.Text = "Room";
             // 
@@ -149,9 +155,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(649, 69);
+            this.comboBox7.Location = new System.Drawing.Point(487, 56);
+            this.comboBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(60, 21);
+            this.comboBox7.Size = new System.Drawing.Size(46, 17);
             this.comboBox7.TabIndex = 37;
             this.comboBox7.Text = "Build.";
             // 
@@ -159,9 +166,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(464, 69);
+            this.comboBox5.Location = new System.Drawing.Point(348, 56);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(71, 21);
+            this.comboBox5.Size = new System.Drawing.Size(54, 17);
             this.comboBox5.TabIndex = 36;
             this.comboBox5.Text = "Start Time";
             // 
@@ -169,9 +177,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(384, 69);
+            this.comboBox4.Location = new System.Drawing.Point(288, 56);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(60, 21);
+            this.comboBox4.Size = new System.Drawing.Size(46, 17);
             this.comboBox4.TabIndex = 35;
             this.comboBox4.Text = "Day";
             // 
@@ -179,9 +188,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(304, 69);
+            this.comboBox3.Location = new System.Drawing.Point(228, 56);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(60, 21);
+            this.comboBox3.Size = new System.Drawing.Size(46, 17);
             this.comboBox3.TabIndex = 34;
             this.comboBox3.Text = "Instr.";
             // 
@@ -189,9 +199,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(225, 69);
+            this.comboBox2.Location = new System.Drawing.Point(169, 56);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(60, 21);
+            this.comboBox2.Size = new System.Drawing.Size(46, 17);
             this.comboBox2.TabIndex = 33;
             this.comboBox2.Text = "No.";
             // 
@@ -199,17 +210,19 @@ namespace Course_Scheduler_App
             // 
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(146, 69);
+            this.comboBox1.Location = new System.Drawing.Point(110, 56);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(60, 21);
+            this.comboBox1.Size = new System.Drawing.Size(46, 17);
             this.comboBox1.TabIndex = 32;
             this.comboBox1.Text = "Subj.";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(60, 8);
+            this.button1.Location = new System.Drawing.Point(45, 6);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 29;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = true;
@@ -218,15 +231,19 @@ namespace Course_Scheduler_App
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.groupBox1);
-            this.groupBox7.Location = new System.Drawing.Point(113, 100);
+            this.groupBox7.Location = new System.Drawing.Point(85, 81);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(694, 402);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox7.Size = new System.Drawing.Size(520, 327);
             this.groupBox7.TabIndex = 56;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Course Schedule";
+            this.groupBox7.Enter += new System.EventHandler(this.groupBox7_Enter);
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.room1);
             this.groupBox1.Controls.Add(this.build1);
             this.groupBox1.Controls.Add(this.end1);
@@ -236,9 +253,11 @@ namespace Course_Scheduler_App
             this.groupBox1.Controls.Add(this.no1);
             this.groupBox1.Controls.Add(this.subj1);
             this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Location = new System.Drawing.Point(0, 40);
+            this.groupBox1.Location = new System.Drawing.Point(0, 32);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(694, 63);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(520, 51);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
@@ -246,80 +265,89 @@ namespace Course_Scheduler_App
             // room1
             // 
             this.room1.AutoSize = true;
-            this.room1.Location = new System.Drawing.Point(631, 21);
+            this.room1.Location = new System.Drawing.Point(473, 17);
+            this.room1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.room1.Name = "room1";
-            this.room1.Size = new System.Drawing.Size(46, 17);
+            this.room1.Size = new System.Drawing.Size(35, 13);
             this.room1.TabIndex = 53;
             this.room1.Text = "label9";
             // 
             // build1
             // 
             this.build1.AutoSize = true;
-            this.build1.Location = new System.Drawing.Point(552, 21);
+            this.build1.Location = new System.Drawing.Point(414, 17);
+            this.build1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.build1.Name = "build1";
-            this.build1.Size = new System.Drawing.Size(46, 17);
+            this.build1.Size = new System.Drawing.Size(35, 13);
             this.build1.TabIndex = 52;
             this.build1.Text = "label8";
             // 
             // end1
             // 
             this.end1.AutoSize = true;
-            this.end1.Location = new System.Drawing.Point(460, 21);
+            this.end1.Location = new System.Drawing.Point(345, 17);
+            this.end1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.end1.Name = "end1";
-            this.end1.Size = new System.Drawing.Size(46, 17);
+            this.end1.Size = new System.Drawing.Size(35, 13);
             this.end1.TabIndex = 51;
             this.end1.Text = "label7";
             // 
             // start1
             // 
             this.start1.AutoSize = true;
-            this.start1.Location = new System.Drawing.Point(367, 20);
+            this.start1.Location = new System.Drawing.Point(275, 16);
+            this.start1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.start1.Name = "start1";
-            this.start1.Size = new System.Drawing.Size(46, 17);
+            this.start1.Size = new System.Drawing.Size(35, 13);
             this.start1.TabIndex = 50;
             this.start1.Text = "label6";
             // 
             // day1
             // 
             this.day1.AutoSize = true;
-            this.day1.Location = new System.Drawing.Point(287, 21);
+            this.day1.Location = new System.Drawing.Point(215, 17);
+            this.day1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.day1.Name = "day1";
-            this.day1.Size = new System.Drawing.Size(46, 17);
+            this.day1.Size = new System.Drawing.Size(35, 13);
             this.day1.TabIndex = 49;
             this.day1.Text = "label5";
             // 
             // instr1
             // 
             this.instr1.AutoSize = true;
-            this.instr1.Location = new System.Drawing.Point(207, 21);
+            this.instr1.Location = new System.Drawing.Point(155, 17);
+            this.instr1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.instr1.Name = "instr1";
-            this.instr1.Size = new System.Drawing.Size(46, 17);
+            this.instr1.Size = new System.Drawing.Size(35, 13);
             this.instr1.TabIndex = 48;
             this.instr1.Text = "label4";
             // 
             // no1
             // 
             this.no1.AutoSize = true;
-            this.no1.Location = new System.Drawing.Point(128, 21);
+            this.no1.Location = new System.Drawing.Point(96, 17);
+            this.no1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.no1.Name = "no1";
-            this.no1.Size = new System.Drawing.Size(46, 17);
+            this.no1.Size = new System.Drawing.Size(35, 13);
             this.no1.TabIndex = 47;
             this.no1.Text = "label3";
             // 
             // subj1
             // 
             this.subj1.AutoSize = true;
-            this.subj1.Location = new System.Drawing.Point(52, 21);
+            this.subj1.Location = new System.Drawing.Point(39, 17);
+            this.subj1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subj1.Name = "subj1";
-            this.subj1.Size = new System.Drawing.Size(0, 17);
+            this.subj1.Size = new System.Drawing.Size(0, 13);
             this.subj1.TabIndex = 46;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(0, 21);
+            this.checkBox1.Location = new System.Drawing.Point(0, 17);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 45;
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
@@ -334,90 +362,101 @@ namespace Course_Scheduler_App
             this.groupBox4.Controls.Add(this.no4);
             this.groupBox4.Controls.Add(this.subj4);
             this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Location = new System.Drawing.Point(113, 347);
+            this.groupBox4.Location = new System.Drawing.Point(85, 282);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(694, 63);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Size = new System.Drawing.Size(520, 51);
             this.groupBox4.TabIndex = 54;
             this.groupBox4.TabStop = false;
             // 
             // room4
             // 
             this.room4.AutoSize = true;
-            this.room4.Location = new System.Drawing.Point(631, 21);
+            this.room4.Location = new System.Drawing.Point(473, 17);
+            this.room4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.room4.Name = "room4";
-            this.room4.Size = new System.Drawing.Size(54, 17);
+            this.room4.Size = new System.Drawing.Size(41, 13);
             this.room4.TabIndex = 53;
             this.room4.Text = "label26";
             // 
             // build4
             // 
             this.build4.AutoSize = true;
-            this.build4.Location = new System.Drawing.Point(552, 21);
+            this.build4.Location = new System.Drawing.Point(414, 17);
+            this.build4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.build4.Name = "build4";
-            this.build4.Size = new System.Drawing.Size(54, 17);
+            this.build4.Size = new System.Drawing.Size(41, 13);
             this.build4.TabIndex = 52;
             this.build4.Text = "label27";
             // 
             // end4
             // 
             this.end4.AutoSize = true;
-            this.end4.Location = new System.Drawing.Point(460, 21);
+            this.end4.Location = new System.Drawing.Point(345, 17);
+            this.end4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.end4.Name = "end4";
-            this.end4.Size = new System.Drawing.Size(54, 17);
+            this.end4.Size = new System.Drawing.Size(41, 13);
             this.end4.TabIndex = 51;
             this.end4.Text = "label28";
             // 
             // start4
             // 
             this.start4.AutoSize = true;
-            this.start4.Location = new System.Drawing.Point(367, 20);
+            this.start4.Location = new System.Drawing.Point(275, 16);
+            this.start4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.start4.Name = "start4";
-            this.start4.Size = new System.Drawing.Size(54, 17);
+            this.start4.Size = new System.Drawing.Size(41, 13);
             this.start4.TabIndex = 50;
             this.start4.Text = "label29";
             // 
             // day4
             // 
             this.day4.AutoSize = true;
-            this.day4.Location = new System.Drawing.Point(287, 21);
+            this.day4.Location = new System.Drawing.Point(215, 17);
+            this.day4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.day4.Name = "day4";
-            this.day4.Size = new System.Drawing.Size(54, 17);
+            this.day4.Size = new System.Drawing.Size(41, 13);
             this.day4.TabIndex = 49;
             this.day4.Text = "label30";
             // 
             // instr4
             // 
             this.instr4.AutoSize = true;
-            this.instr4.Location = new System.Drawing.Point(207, 21);
+            this.instr4.Location = new System.Drawing.Point(155, 17);
+            this.instr4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.instr4.Name = "instr4";
-            this.instr4.Size = new System.Drawing.Size(54, 17);
+            this.instr4.Size = new System.Drawing.Size(41, 13);
             this.instr4.TabIndex = 48;
             this.instr4.Text = "label31";
             // 
             // no4
             // 
             this.no4.AutoSize = true;
-            this.no4.Location = new System.Drawing.Point(128, 21);
+            this.no4.Location = new System.Drawing.Point(96, 17);
+            this.no4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.no4.Name = "no4";
-            this.no4.Size = new System.Drawing.Size(54, 17);
+            this.no4.Size = new System.Drawing.Size(41, 13);
             this.no4.TabIndex = 47;
             this.no4.Text = "label32";
             // 
             // subj4
             // 
             this.subj4.AutoSize = true;
-            this.subj4.Location = new System.Drawing.Point(52, 21);
+            this.subj4.Location = new System.Drawing.Point(39, 17);
+            this.subj4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subj4.Name = "subj4";
-            this.subj4.Size = new System.Drawing.Size(54, 17);
+            this.subj4.Size = new System.Drawing.Size(41, 13);
             this.subj4.TabIndex = 46;
             this.subj4.Text = "label33";
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(0, 21);
+            this.checkBox4.Location = new System.Drawing.Point(0, 17);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(18, 17);
+            this.checkBox4.Size = new System.Drawing.Size(15, 14);
             this.checkBox4.TabIndex = 45;
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
@@ -432,90 +471,101 @@ namespace Course_Scheduler_App
             this.groupBox2.Controls.Add(this.no2);
             this.groupBox2.Controls.Add(this.subj2);
             this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Location = new System.Drawing.Point(113, 209);
+            this.groupBox2.Location = new System.Drawing.Point(85, 170);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(694, 63);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(520, 51);
             this.groupBox2.TabIndex = 54;
             this.groupBox2.TabStop = false;
             // 
             // room2
             // 
             this.room2.AutoSize = true;
-            this.room2.Location = new System.Drawing.Point(631, 21);
+            this.room2.Location = new System.Drawing.Point(473, 17);
+            this.room2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.room2.Name = "room2";
-            this.room2.Size = new System.Drawing.Size(54, 17);
+            this.room2.Size = new System.Drawing.Size(41, 13);
             this.room2.TabIndex = 53;
             this.room2.Text = "label10";
             // 
             // build2
             // 
             this.build2.AutoSize = true;
-            this.build2.Location = new System.Drawing.Point(552, 21);
+            this.build2.Location = new System.Drawing.Point(414, 17);
+            this.build2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.build2.Name = "build2";
-            this.build2.Size = new System.Drawing.Size(54, 17);
+            this.build2.Size = new System.Drawing.Size(41, 13);
             this.build2.TabIndex = 52;
             this.build2.Text = "label11";
             // 
             // end2
             // 
             this.end2.AutoSize = true;
-            this.end2.Location = new System.Drawing.Point(460, 21);
+            this.end2.Location = new System.Drawing.Point(345, 17);
+            this.end2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.end2.Name = "end2";
-            this.end2.Size = new System.Drawing.Size(54, 17);
+            this.end2.Size = new System.Drawing.Size(41, 13);
             this.end2.TabIndex = 51;
             this.end2.Text = "label12";
             // 
             // start2
             // 
             this.start2.AutoSize = true;
-            this.start2.Location = new System.Drawing.Point(367, 20);
+            this.start2.Location = new System.Drawing.Point(275, 16);
+            this.start2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.start2.Name = "start2";
-            this.start2.Size = new System.Drawing.Size(54, 17);
+            this.start2.Size = new System.Drawing.Size(41, 13);
             this.start2.TabIndex = 50;
             this.start2.Text = "label13";
             // 
             // day2
             // 
             this.day2.AutoSize = true;
-            this.day2.Location = new System.Drawing.Point(287, 21);
+            this.day2.Location = new System.Drawing.Point(215, 17);
+            this.day2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.day2.Name = "day2";
-            this.day2.Size = new System.Drawing.Size(54, 17);
+            this.day2.Size = new System.Drawing.Size(41, 13);
             this.day2.TabIndex = 49;
             this.day2.Text = "label14";
             // 
             // instr2
             // 
             this.instr2.AutoSize = true;
-            this.instr2.Location = new System.Drawing.Point(207, 21);
+            this.instr2.Location = new System.Drawing.Point(155, 17);
+            this.instr2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.instr2.Name = "instr2";
-            this.instr2.Size = new System.Drawing.Size(54, 17);
+            this.instr2.Size = new System.Drawing.Size(41, 13);
             this.instr2.TabIndex = 48;
             this.instr2.Text = "label15";
             // 
             // no2
             // 
             this.no2.AutoSize = true;
-            this.no2.Location = new System.Drawing.Point(128, 21);
+            this.no2.Location = new System.Drawing.Point(96, 17);
+            this.no2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.no2.Name = "no2";
-            this.no2.Size = new System.Drawing.Size(54, 17);
+            this.no2.Size = new System.Drawing.Size(41, 13);
             this.no2.TabIndex = 47;
             this.no2.Text = "label16";
             // 
             // subj2
             // 
             this.subj2.AutoSize = true;
-            this.subj2.Location = new System.Drawing.Point(52, 21);
+            this.subj2.Location = new System.Drawing.Point(39, 17);
+            this.subj2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subj2.Name = "subj2";
-            this.subj2.Size = new System.Drawing.Size(54, 17);
+            this.subj2.Size = new System.Drawing.Size(41, 13);
             this.subj2.TabIndex = 46;
             this.subj2.Text = "label17";
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(0, 21);
+            this.checkBox2.Location = new System.Drawing.Point(0, 17);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(18, 17);
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
             this.checkBox2.TabIndex = 45;
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
@@ -530,98 +580,111 @@ namespace Course_Scheduler_App
             this.groupBox3.Controls.Add(this.no3);
             this.groupBox3.Controls.Add(this.subj3);
             this.groupBox3.Controls.Add(this.checkBox3);
-            this.groupBox3.Location = new System.Drawing.Point(113, 278);
+            this.groupBox3.Location = new System.Drawing.Point(85, 226);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(694, 63);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Size = new System.Drawing.Size(520, 51);
             this.groupBox3.TabIndex = 57;
             this.groupBox3.TabStop = false;
             // 
             // room3
             // 
             this.room3.AutoSize = true;
-            this.room3.Location = new System.Drawing.Point(631, 21);
+            this.room3.Location = new System.Drawing.Point(473, 17);
+            this.room3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.room3.Name = "room3";
-            this.room3.Size = new System.Drawing.Size(54, 17);
+            this.room3.Size = new System.Drawing.Size(41, 13);
             this.room3.TabIndex = 53;
             this.room3.Text = "label18";
             // 
             // build3
             // 
             this.build3.AutoSize = true;
-            this.build3.Location = new System.Drawing.Point(552, 21);
+            this.build3.Location = new System.Drawing.Point(414, 17);
+            this.build3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.build3.Name = "build3";
-            this.build3.Size = new System.Drawing.Size(54, 17);
+            this.build3.Size = new System.Drawing.Size(41, 13);
             this.build3.TabIndex = 52;
             this.build3.Text = "label19";
             // 
             // end3
             // 
             this.end3.AutoSize = true;
-            this.end3.Location = new System.Drawing.Point(460, 21);
+            this.end3.Location = new System.Drawing.Point(345, 17);
+            this.end3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.end3.Name = "end3";
-            this.end3.Size = new System.Drawing.Size(54, 17);
+            this.end3.Size = new System.Drawing.Size(41, 13);
             this.end3.TabIndex = 51;
             this.end3.Text = "label20";
             // 
             // start3
             // 
             this.start3.AutoSize = true;
-            this.start3.Location = new System.Drawing.Point(367, 20);
+            this.start3.Location = new System.Drawing.Point(275, 16);
+            this.start3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.start3.Name = "start3";
-            this.start3.Size = new System.Drawing.Size(54, 17);
+            this.start3.Size = new System.Drawing.Size(41, 13);
             this.start3.TabIndex = 50;
             this.start3.Text = "label21";
             // 
             // day3
             // 
             this.day3.AutoSize = true;
-            this.day3.Location = new System.Drawing.Point(287, 21);
+            this.day3.Location = new System.Drawing.Point(215, 17);
+            this.day3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.day3.Name = "day3";
-            this.day3.Size = new System.Drawing.Size(54, 17);
+            this.day3.Size = new System.Drawing.Size(41, 13);
             this.day3.TabIndex = 49;
             this.day3.Text = "label22";
             // 
             // instr3
             // 
             this.instr3.AutoSize = true;
-            this.instr3.Location = new System.Drawing.Point(207, 21);
+            this.instr3.Location = new System.Drawing.Point(155, 17);
+            this.instr3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.instr3.Name = "instr3";
-            this.instr3.Size = new System.Drawing.Size(54, 17);
+            this.instr3.Size = new System.Drawing.Size(41, 13);
             this.instr3.TabIndex = 48;
             this.instr3.Text = "label23";
             // 
             // no3
             // 
             this.no3.AutoSize = true;
-            this.no3.Location = new System.Drawing.Point(128, 21);
+            this.no3.Location = new System.Drawing.Point(96, 17);
+            this.no3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.no3.Name = "no3";
-            this.no3.Size = new System.Drawing.Size(54, 17);
+            this.no3.Size = new System.Drawing.Size(41, 13);
             this.no3.TabIndex = 47;
             this.no3.Text = "label24";
             // 
             // subj3
             // 
             this.subj3.AutoSize = true;
-            this.subj3.Location = new System.Drawing.Point(52, 21);
+            this.subj3.Location = new System.Drawing.Point(39, 17);
+            this.subj3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.subj3.Name = "subj3";
-            this.subj3.Size = new System.Drawing.Size(54, 17);
+            this.subj3.Size = new System.Drawing.Size(41, 13);
             this.subj3.TabIndex = 46;
             this.subj3.Text = "label25";
             // 
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(0, 21);
+            this.checkBox3.Location = new System.Drawing.Point(0, 17);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(18, 17);
+            this.checkBox3.Size = new System.Drawing.Size(15, 14);
             this.checkBox3.TabIndex = 45;
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
-            this.groupBox5.Location = new System.Drawing.Point(919, 100);
+            this.groupBox5.Location = new System.Drawing.Point(689, 81);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(694, 402);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Size = new System.Drawing.Size(520, 327);
             this.groupBox5.TabIndex = 57;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Student Schedule";
@@ -630,9 +693,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox9.FormattingEnabled = true;
-            this.comboBox9.Location = new System.Drawing.Point(1360, 69);
+            this.comboBox9.Location = new System.Drawing.Point(1020, 56);
+            this.comboBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(73, 21);
+            this.comboBox9.Size = new System.Drawing.Size(56, 17);
             this.comboBox9.TabIndex = 65;
             this.comboBox9.Text = "End Time";
             // 
@@ -640,9 +704,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(1531, 69);
+            this.comboBox10.Location = new System.Drawing.Point(1148, 56);
+            this.comboBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(60, 21);
+            this.comboBox10.Size = new System.Drawing.Size(46, 17);
             this.comboBox10.TabIndex = 64;
             this.comboBox10.Text = "Room";
             // 
@@ -650,9 +715,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(1452, 69);
+            this.comboBox11.Location = new System.Drawing.Point(1089, 56);
+            this.comboBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(60, 21);
+            this.comboBox11.Size = new System.Drawing.Size(46, 17);
             this.comboBox11.TabIndex = 63;
             this.comboBox11.Text = "Build.";
             // 
@@ -660,9 +726,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(1267, 69);
+            this.comboBox12.Location = new System.Drawing.Point(950, 56);
+            this.comboBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(71, 21);
+            this.comboBox12.Size = new System.Drawing.Size(54, 17);
             this.comboBox12.TabIndex = 62;
             this.comboBox12.Text = "Start Time";
             // 
@@ -670,9 +737,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox13.FormattingEnabled = true;
-            this.comboBox13.Location = new System.Drawing.Point(1187, 69);
+            this.comboBox13.Location = new System.Drawing.Point(890, 56);
+            this.comboBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(60, 21);
+            this.comboBox13.Size = new System.Drawing.Size(46, 17);
             this.comboBox13.TabIndex = 61;
             this.comboBox13.Text = "Day";
             // 
@@ -680,9 +748,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox14.FormattingEnabled = true;
-            this.comboBox14.Location = new System.Drawing.Point(1107, 69);
+            this.comboBox14.Location = new System.Drawing.Point(830, 56);
+            this.comboBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox14.Name = "comboBox14";
-            this.comboBox14.Size = new System.Drawing.Size(60, 21);
+            this.comboBox14.Size = new System.Drawing.Size(46, 17);
             this.comboBox14.TabIndex = 60;
             this.comboBox14.Text = "Instr.";
             // 
@@ -690,9 +759,10 @@ namespace Course_Scheduler_App
             // 
             this.comboBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox15.FormattingEnabled = true;
-            this.comboBox15.Location = new System.Drawing.Point(1028, 69);
+            this.comboBox15.Location = new System.Drawing.Point(771, 56);
+            this.comboBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox15.Name = "comboBox15";
-            this.comboBox15.Size = new System.Drawing.Size(60, 21);
+            this.comboBox15.Size = new System.Drawing.Size(46, 17);
             this.comboBox15.TabIndex = 59;
             this.comboBox15.Text = "No.";
             // 
@@ -700,17 +770,28 @@ namespace Course_Scheduler_App
             // 
             this.comboBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 6F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox16.FormattingEnabled = true;
-            this.comboBox16.Location = new System.Drawing.Point(949, 69);
+            this.comboBox16.Location = new System.Drawing.Point(712, 56);
+            this.comboBox16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox16.Name = "comboBox16";
-            this.comboBox16.Size = new System.Drawing.Size(60, 21);
+            this.comboBox16.Size = new System.Drawing.Size(46, 17);
             this.comboBox16.TabIndex = 58;
             this.comboBox16.Text = "Subj.";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(39, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 54;
+            this.label1.Text = "label3";
+            // 
             // Form3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1782, 778);
+            this.ClientSize = new System.Drawing.Size(1336, 632);
             this.Controls.Add(this.comboBox9);
             this.Controls.Add(this.comboBox10);
             this.Controls.Add(this.comboBox11);
@@ -736,6 +817,7 @@ namespace Course_Scheduler_App
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form3";
             this.Text = "Form3";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -817,5 +899,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.ComboBox comboBox14;
         private System.Windows.Forms.ComboBox comboBox15;
         private System.Windows.Forms.ComboBox comboBox16;
+        private System.Windows.Forms.Label label1;
     }
 }

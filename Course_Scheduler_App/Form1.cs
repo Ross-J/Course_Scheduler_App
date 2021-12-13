@@ -15,7 +15,8 @@ namespace Course_Scheduler_App
     {
         public static string fileContent = "";
         public static List<Object> listOfAllCourses = new List<Object>();
-        public int numberOfCourses = 0;
+        public static int numberOfCourses = 0;
+        public static object course;
 
         public Form1()
         {
@@ -81,7 +82,8 @@ namespace Course_Scheduler_App
                 }
             }
 
-            var course = new Course(subject, number, instructor, days, startTime, endTime, building, room);
+            var course1 = new Course(subject, number, instructor, days, startTime, endTime, building, room);
+            course = course1;
             listOfAllCourses.Add(course);
             numberOfCourses++;
         }
