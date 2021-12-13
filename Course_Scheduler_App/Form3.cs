@@ -13,6 +13,7 @@ namespace Course_Scheduler_App
     public partial class Form3 : Form
     {
         List<Object> listOfCoursesToDisplay = Form1.listOfAllCourses;
+        int numberOfCoursesToDisplay = Form1.numberOfCourses;
         List<Object> listOfStudentCourses = new List<Object>();
 
         public Form3()

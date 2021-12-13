@@ -167,12 +167,14 @@ namespace Course_Scheduler_App
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.groupBox4);
+            this.groupBox7.Controls.Add(this.groupBox9);
             this.groupBox7.Controls.Add(this.groupBox6);
+            this.groupBox7.Controls.Add(this.groupBox5);
             this.groupBox7.Controls.Add(this.groupBox8);
-            this.groupBox7.Controls.Add(this.groupBox1);
+            this.groupBox7.Controls.Add(this.groupBox2);
             this.groupBox7.Location = new System.Drawing.Point(83, 126);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(694, 640);
+            this.groupBox7.Size = new System.Drawing.Size(694, 660);
             this.groupBox7.TabIndex = 57;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Course Schedule";
@@ -188,9 +190,9 @@ namespace Course_Scheduler_App
             this.groupBox4.Controls.Add(this.no4);
             this.groupBox4.Controls.Add(this.subj4);
             this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Location = new System.Drawing.Point(0, 247);
+            this.groupBox4.Location = new System.Drawing.Point(0, 234);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(694, 63);
+            this.groupBox4.Size = new System.Drawing.Size(694, 65);
             this.groupBox4.TabIndex = 54;
             this.groupBox4.TabStop = false;
             // 
@@ -286,9 +288,9 @@ namespace Course_Scheduler_App
             this.groupBox1.Controls.Add(this.no1);
             this.groupBox1.Controls.Add(this.subj1);
             this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Location = new System.Drawing.Point(0, 40);
+            this.groupBox1.Location = new System.Drawing.Point(83, 147);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(694, 63);
+            this.groupBox1.Size = new System.Drawing.Size(694, 65);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             // 
@@ -383,9 +385,9 @@ namespace Course_Scheduler_App
             this.groupBox2.Controls.Add(this.no2);
             this.groupBox2.Controls.Add(this.subj2);
             this.groupBox2.Controls.Add(this.checkBox2);
-            this.groupBox2.Location = new System.Drawing.Point(83, 235);
+            this.groupBox2.Location = new System.Drawing.Point(0, 92);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(694, 63);
+            this.groupBox2.Size = new System.Drawing.Size(694, 65);
             this.groupBox2.TabIndex = 55;
             this.groupBox2.TabStop = false;
             // 
@@ -481,9 +483,9 @@ namespace Course_Scheduler_App
             this.groupBox3.Controls.Add(this.no3);
             this.groupBox3.Controls.Add(this.subj3);
             this.groupBox3.Controls.Add(this.checkBox3);
-            this.groupBox3.Location = new System.Drawing.Point(83, 304);
+            this.groupBox3.Location = new System.Drawing.Point(83, 289);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(694, 63);
+            this.groupBox3.Size = new System.Drawing.Size(694, 65);
             this.groupBox3.TabIndex = 58;
             this.groupBox3.TabStop = false;
             // 
@@ -579,9 +581,9 @@ namespace Course_Scheduler_App
             this.groupBox5.Controls.Add(this.label7);
             this.groupBox5.Controls.Add(this.label8);
             this.groupBox5.Controls.Add(this.checkBox5);
-            this.groupBox5.Location = new System.Drawing.Point(83, 442);
+            this.groupBox5.Location = new System.Drawing.Point(0, 305);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(694, 63);
+            this.groupBox5.Size = new System.Drawing.Size(694, 65);
             this.groupBox5.TabIndex = 55;
             this.groupBox5.TabStop = false;
             // 
@@ -677,9 +679,9 @@ namespace Course_Scheduler_App
             this.groupBox6.Controls.Add(this.label15);
             this.groupBox6.Controls.Add(this.label16);
             this.groupBox6.Controls.Add(this.checkBox6);
-            this.groupBox6.Location = new System.Drawing.Point(0, 385);
+            this.groupBox6.Location = new System.Drawing.Point(0, 376);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(694, 63);
+            this.groupBox6.Size = new System.Drawing.Size(694, 65);
             this.groupBox6.TabIndex = 56;
             this.groupBox6.TabStop = false;
             // 
@@ -775,9 +777,9 @@ namespace Course_Scheduler_App
             this.groupBox8.Controls.Add(this.label23);
             this.groupBox8.Controls.Add(this.label24);
             this.groupBox8.Controls.Add(this.checkBox7);
-            this.groupBox8.Location = new System.Drawing.Point(0, 454);
+            this.groupBox8.Location = new System.Drawing.Point(0, 447);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(694, 63);
+            this.groupBox8.Size = new System.Drawing.Size(694, 65);
             this.groupBox8.TabIndex = 56;
             this.groupBox8.TabStop = false;
             // 
@@ -873,9 +875,9 @@ namespace Course_Scheduler_App
             this.groupBox9.Controls.Add(this.label31);
             this.groupBox9.Controls.Add(this.label32);
             this.groupBox9.Controls.Add(this.checkBox8);
-            this.groupBox9.Location = new System.Drawing.Point(83, 649);
+            this.groupBox9.Location = new System.Drawing.Point(0, 518);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(694, 63);
+            this.groupBox9.Size = new System.Drawing.Size(694, 65);
             this.groupBox9.TabIndex = 56;
             this.groupBox9.TabStop = false;
             // 
@@ -971,9 +973,9 @@ namespace Course_Scheduler_App
             this.groupBox10.Controls.Add(this.label39);
             this.groupBox10.Controls.Add(this.label40);
             this.groupBox10.Controls.Add(this.checkBox9);
-            this.groupBox10.Location = new System.Drawing.Point(83, 718);
+            this.groupBox10.Location = new System.Drawing.Point(83, 715);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(694, 63);
+            this.groupBox10.Size = new System.Drawing.Size(694, 65);
             this.groupBox10.TabIndex = 59;
             this.groupBox10.TabStop = false;
             // 
@@ -1064,10 +1066,8 @@ namespace Course_Scheduler_App
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1782, 796);
             this.Controls.Add(this.groupBox10);
-            this.Controls.Add(this.groupBox9);
-            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
