@@ -14,10 +14,13 @@ namespace Course_Scheduler_App
     public partial class Form1 : Form
     {
         public static string fileContent = "";
+        public static List<Object> listOfAllCourses = new List<Object>();
+        public int numberOfCourses = 0;
 
         public Form1()
         {
             InitializeComponent();
+            //parseData("CSC,370,Locklair,MWF,1:10,2:25,Stuenkel,118B");
         }
 
         
@@ -76,10 +79,11 @@ namespace Course_Scheduler_App
                 {
                     room = room + s[i];
                 }
-                label3.Text = subject;
             }
 
-
+            var course = new Course(subject, number, instructor, days, startTime, endTime, building, room);
+            listOfAllCourses.Add(course);
+            numberOfCourses++;
         }
        
         private void button1_Click(object sender, EventArgs e)
@@ -107,7 +111,7 @@ namespace Course_Scheduler_App
                        
                         while(!reader.EndOfStream)
                         {
-             
+         
                             fileContent = reader.ReadLine();
                             //displays contents of the file
 
