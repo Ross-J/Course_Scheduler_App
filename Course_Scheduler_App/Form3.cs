@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Course_Scheduler_App
+namespace Course_Scheduler_App 
 {
     public partial class Form3 : Form
     {
@@ -22,7 +22,7 @@ namespace Course_Scheduler_App
 
         private void displayCourses()
         {
-            var course = listOfCoursesToDisplay[0];
+            object course1 = listOfCoursesToDisplay[0];
         }
 
         private void button1_Click(object sender, EventArgs e)

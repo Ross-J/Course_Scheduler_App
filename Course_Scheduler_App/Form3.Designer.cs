@@ -241,6 +241,7 @@ namespace Course_Scheduler_App
             this.groupBox1.Size = new System.Drawing.Size(694, 63);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Visible = false;
             // 
             // room1
             // 
