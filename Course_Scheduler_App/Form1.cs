@@ -147,11 +147,19 @@ namespace Course_Scheduler_App
                 {
                     if (c2.Building == c.Building)
                     {
-                        foreach (Course c3 in coursesToCheck)
+                        if (coursesToCheck.Count == 0)
                         {
-                            if(c3 != c2)
+                            coursesToCheck.Add(c2);
+                        }
+                        else 
+                        {
+                            foreach (Course c3 in coursesToCheck)
                             {
-                                coursesToCheck.Add(c2);
+                                if (c3 != c2)
+                                {
+                                    coursesToCheck.Add(c2);
+                                    break;
+                                }
                             }
                         }
                     }
