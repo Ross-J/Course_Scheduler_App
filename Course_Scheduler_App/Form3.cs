@@ -31,6 +31,13 @@ namespace Course_Scheduler_App
             //Course course6 = listOfCoursesToDisplay[5];
             //Course course7 = listOfCoursesToDisplay[6];
             //Course course8 = listOfCoursesToDisplay[7];
+
+            
+        }
+
+        private void displayStudentCourses()
+        {
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -46,6 +53,11 @@ namespace Course_Scheduler_App
         }
 
         private void groupBox7_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox15_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
