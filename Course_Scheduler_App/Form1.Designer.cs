@@ -34,12 +34,12 @@ namespace Course_Scheduler_App
             this.conflictMessage = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button3
             // 
+            this.button3.CausesValidation = false;
             this.button3.Location = new System.Drawing.Point(832, 496);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(207, 58);
@@ -64,9 +64,8 @@ namespace Course_Scheduler_App
             this.conflictMessage.ForeColor = System.Drawing.Color.Green;
             this.conflictMessage.Location = new System.Drawing.Point(549, 145);
             this.conflictMessage.Name = "conflictMessage";
-            this.conflictMessage.Size = new System.Drawing.Size(150, 17);
+            this.conflictMessage.Size = new System.Drawing.Size(0, 17);
             this.conflictMessage.TabIndex = 7;
-            this.conflictMessage.Text = "No conflicts in data file";
             this.conflictMessage.Visible = false;
             // 
             // button1
@@ -88,15 +87,6 @@ namespace Course_Scheduler_App
             this.label1.TabIndex = 5;
             this.label1.Text = "Welcome to Course_Scheduler. Please upload a course file to get started.";
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(801, 129);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(104, 34);
-            this.button4.TabIndex = 10;
-            this.button4.Text = "View Details";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
             // label3
             // 
             this.label3.Location = new System.Drawing.Point(0, 0);
@@ -110,7 +100,6 @@ namespace Course_Scheduler_App
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1782, 778);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.conflictMessage);
@@ -131,7 +120,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label conflictMessage;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label3;
     }
 }

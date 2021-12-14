@@ -118,7 +118,6 @@ namespace Course_Scheduler_App
 
                             parseData(fileContent);
                         }
-                        
                     }
                 }
             }
@@ -128,53 +127,35 @@ namespace Course_Scheduler_App
             {
                 conflictMessage.Visible = true;
                 conflictMessage.ForeColor = System.Drawing.Color.Red;
-                conflictMessage.Text = "Conflicts exist in the data file";
+                conflictMessage.Text = "Conflicts exist in the data file.";
             }
             else
             {
                 conflictMessage.Visible = true;
+                conflictMessage.ForeColor = System.Drawing.Color.Green;
+                conflictMessage.Text = "No conflicts exist in the data file.";
             }
         }
 
         private bool checkForInitialConflicts()
         {
-            List<Course> coursesToCheck = new List<Course>();
             bool isConflicts = false;
 
             foreach (Course c in listOfAllCourses)
             {
                 foreach (Course c2 in listOfAllCourses)
                 {
-                    if (c2.Building == c.Building)
+                    if (c2 != c)
                     {
-                        if (coursesToCheck.Count == 0)
+                        if (c2.Building == c.Building && c2.Days == c.Days)
                         {
-                            coursesToCheck.Add(c2);
-                        }
-                        else 
-                        {
-                            foreach (Course c3 in coursesToCheck)
+                            if (c2.StartTime == c.StartTime)
                             {
-                                if (c3 != c2)
-                                {
-                                    coursesToCheck.Add(c2);
-                                    break;
-                                }
+                                isConflicts = true;
                             }
                         }
                     }
-                }
-            }
-
-            foreach (Course c in coursesToCheck)
-            {
-                foreach (Course c2 in coursesToCheck)
-                {
-                    if (c2.StartTime == c.StartTime)
-                    {
-                        isConflicts = true;
-                    }
-                }
+                } 
             }
 
             return isConflicts;
@@ -193,5 +174,6 @@ namespace Course_Scheduler_App
             m.Show();
             this.Hide();
         }
+
     }
 }

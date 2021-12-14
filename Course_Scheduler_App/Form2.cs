@@ -14,16 +14,16 @@ namespace Course_Scheduler_App
     {
         List<Course> listOfCoursesToDisplay = Form1.listOfAllCourses;
         int numberOfCoursesToDisplay = Form1.numberOfCourses;
-       
+      
 
         public Form2()
         {
             InitializeComponent();
             //richTextBox1.Text = Form1.fileContent;
-            displayCourses();
+            displayCourses(listOfCoursesToDisplay, numberOfCoursesToDisplay);
         }
 
-        private void displayCourses()
+        private void displayCourses(List<Course> courseList, int numberOfCourses)
         {
             Course course1 = listOfCoursesToDisplay[0];
             Course course2 = listOfCoursesToDisplay[1];
@@ -51,7 +51,12 @@ namespace Course_Scheduler_App
             end1.Text = endTime;
             build1.Text = building;
             room1.Text = room;
+        }
 
+        private bool checkForInstructorConflicts()
+        {
+            bool isConflicts = false;
+            return isConflicts;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -69,6 +74,22 @@ namespace Course_Scheduler_App
         private void groupBox7_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedInstructor = comboBox1.Text;
+            List<Course> listOfCoursesWithInstructor = new List<Course>();
+            int numberOfInstructorCourses = 0;
+            foreach (Course c in listOfCoursesToDisplay)
+            {
+                if (c.Instructor == selectedInstructor)
+                {
+                    listOfCoursesWithInstructor.Add(c);
+                    numberOfInstructorCourses++;
+                }
+            }
+            displayCourses(listOfCoursesWithInstructor, numberOfInstructorCourses);
         }
     }
 }
