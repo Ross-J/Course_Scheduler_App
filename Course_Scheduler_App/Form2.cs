@@ -14,8 +14,8 @@ namespace Course_Scheduler_App
     {
         List<Object> listOfCoursesToDisplay = Form1.listOfAllCourses;
         int numberOfCoursesToDisplay = Form1.numberOfCourses;
-        //to do: bubble sort or insertion sort
-        //chapter nine of zach's book
+        object course1 = Form1.course;
+
 
 
         public Form2()
@@ -35,6 +35,7 @@ namespace Course_Scheduler_App
             object course7 = listOfCoursesToDisplay[6];
             object course8 = listOfCoursesToDisplay[7];
 
+            string s = course1.getSubject();
         }
 
         private void button1_Click(object sender, EventArgs e)
