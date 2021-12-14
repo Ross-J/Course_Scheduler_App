@@ -175,10 +175,12 @@ namespace Course_Scheduler_App
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.groupBox4);
+            this.groupBox7.Controls.Add(this.groupBox3);
+            this.groupBox7.Controls.Add(this.groupBox1);
             this.groupBox7.Controls.Add(this.groupBox9);
             this.groupBox7.Controls.Add(this.groupBox6);
-            this.groupBox7.Controls.Add(this.groupBox5);
             this.groupBox7.Controls.Add(this.groupBox8);
+            this.groupBox7.Controls.Add(this.groupBox5);
             this.groupBox7.Controls.Add(this.groupBox2);
             this.groupBox7.Location = new System.Drawing.Point(111, 155);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -201,7 +203,7 @@ namespace Course_Scheduler_App
             this.groupBox4.Controls.Add(this.no4);
             this.groupBox4.Controls.Add(this.subj4);
             this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Location = new System.Drawing.Point(0, 288);
+            this.groupBox4.Location = new System.Drawing.Point(0, 251);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -403,7 +405,7 @@ namespace Course_Scheduler_App
             this.groupBox6.Controls.Add(this.label15);
             this.groupBox6.Controls.Add(this.label16);
             this.groupBox6.Controls.Add(this.checkBox6);
-            this.groupBox6.Location = new System.Drawing.Point(0, 463);
+            this.groupBox6.Location = new System.Drawing.Point(0, 427);
             this.groupBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -504,7 +506,7 @@ namespace Course_Scheduler_App
             this.groupBox5.Controls.Add(this.label7);
             this.groupBox5.Controls.Add(this.label8);
             this.groupBox5.Controls.Add(this.checkBox5);
-            this.groupBox5.Location = new System.Drawing.Point(0, 375);
+            this.groupBox5.Location = new System.Drawing.Point(0, 339);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -605,7 +607,7 @@ namespace Course_Scheduler_App
             this.groupBox8.Controls.Add(this.label23);
             this.groupBox8.Controls.Add(this.label24);
             this.groupBox8.Controls.Add(this.checkBox7);
-            this.groupBox8.Location = new System.Drawing.Point(0, 550);
+            this.groupBox8.Location = new System.Drawing.Point(0, 515);
             this.groupBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -710,7 +712,7 @@ namespace Course_Scheduler_App
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(693, 65);
+            this.groupBox2.Size = new System.Drawing.Size(925, 65);
             this.groupBox2.TabIndex = 55;
             this.groupBox2.TabStop = false;
             // 
@@ -807,11 +809,11 @@ namespace Course_Scheduler_App
             this.groupBox1.Controls.Add(this.no1);
             this.groupBox1.Controls.Add(this.subj1);
             this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Location = new System.Drawing.Point(83, 146);
+            this.groupBox1.Location = new System.Drawing.Point(0, 21);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(693, 65);
+            this.groupBox1.Size = new System.Drawing.Size(925, 65);
             this.groupBox1.TabIndex = 46;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -908,7 +910,7 @@ namespace Course_Scheduler_App
             this.groupBox3.Controls.Add(this.no3);
             this.groupBox3.Controls.Add(this.subj3);
             this.groupBox3.Controls.Add(this.checkBox3);
-            this.groupBox3.Location = new System.Drawing.Point(111, 356);
+            this.groupBox3.Location = new System.Drawing.Point(0, 163);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -1105,8 +1107,6 @@ namespace Course_Scheduler_App
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1781, 796);
             this.Controls.Add(this.groupBox10);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
