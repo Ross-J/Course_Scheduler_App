@@ -31,7 +31,7 @@ namespace Course_Scheduler_App
         {
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.conflictMessage = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
@@ -58,16 +58,16 @@ namespace Course_Scheduler_App
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label2
+            // conflictMessage
             // 
-            this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(549, 145);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(150, 17);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "No conflicts in data file";
-            this.label2.Visible = false;
+            this.conflictMessage.AutoSize = true;
+            this.conflictMessage.ForeColor = System.Drawing.Color.Green;
+            this.conflictMessage.Location = new System.Drawing.Point(549, 145);
+            this.conflictMessage.Name = "conflictMessage";
+            this.conflictMessage.Size = new System.Drawing.Size(150, 17);
+            this.conflictMessage.TabIndex = 7;
+            this.conflictMessage.Text = "No conflicts in data file";
+            this.conflictMessage.Visible = false;
             // 
             // button1
             // 
@@ -113,7 +113,7 @@ namespace Course_Scheduler_App
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.conflictMessage);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -128,7 +128,7 @@ namespace Course_Scheduler_App
 
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label conflictMessage;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button4;

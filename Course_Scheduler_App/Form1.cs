@@ -123,10 +123,20 @@ namespace Course_Scheduler_App
                 }
             }
 
-    
+            bool conflicts = checkForInitialConflicts();
+            if (conflicts == true)
+            {
+                conflictMessage.Visible = true;
+                conflictMessage.ForeColor = System.Drawing.Color.Red;
+                conflictMessage.Text = "Conflicts exist in the data file";
+            }
+            else
+            {
+                conflictMessage.Visible = true;
+            }
         }
 
-        private void checkForInitialConflicts()
+        private bool checkForInitialConflicts()
         {
             List<Course> coursesToCheck = new List<Course>();
             bool isConflicts = false;
@@ -147,6 +157,19 @@ namespace Course_Scheduler_App
                     }
                 }
             }
+
+            foreach (Course c in coursesToCheck)
+            {
+                foreach (Course c2 in coursesToCheck)
+                {
+                    if (c2.StartTime == c.StartTime)
+                    {
+                        isConflicts = true;
+                    }
+                }
+            }
+
+            return isConflicts;
         }
 
         private void button3_Click(object sender, EventArgs e)
