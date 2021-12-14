@@ -73,7 +73,7 @@ namespace Course_Scheduler_App
 
         private void groupBox7_Enter(object sender, EventArgs e)
         {
-
+     
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -90,6 +90,18 @@ namespace Course_Scheduler_App
                 }
             }
             displayCourses(listOfCoursesWithInstructor, numberOfInstructorCourses);
+        }
+
+        private void groupBox11_Enter(object sender, EventArgs e)
+        {
+             Label test = new Label();
+      Createlabel(test);
+
+  }
+
+  private void Createlabel(Label test)
+  {
+      groupBox7.Controls.Add(test);
         }
     }
 }
