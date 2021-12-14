@@ -30,9 +30,9 @@ namespace Course_Scheduler_App
             Course course3 = listOfCoursesToDisplay[2];
             Course course4 = listOfCoursesToDisplay[3];
             Course course5 = listOfCoursesToDisplay[4];
-            //Course course6 = listOfCoursesToDisplay[5];
-            //Course course7 = listOfCoursesToDisplay[6];
-            //Course course8 = listOfCoursesToDisplay[7];
+            Course course6 = listOfCoursesToDisplay[5];
+            Course course7 = listOfCoursesToDisplay[6];
+            Course course8 = listOfCoursesToDisplay[7];
 
             string subject = course1.Subject;
             string number = course1.Number;
