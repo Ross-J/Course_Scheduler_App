@@ -64,9 +64,10 @@ namespace Course_Scheduler_App
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.label2.Location = new System.Drawing.Point(549, 145);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(237, 17);
+            this.label2.Size = new System.Drawing.Size(150, 17);
             this.label2.TabIndex = 7;
-            this.label2.Text = "This data contains potential conflicts";
+            this.label2.Text = "No conflicts in data file";
+            this.label2.Visible = false;
             // 
             // button1
             // 

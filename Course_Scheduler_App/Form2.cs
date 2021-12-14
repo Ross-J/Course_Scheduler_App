@@ -12,30 +12,46 @@ namespace Course_Scheduler_App
 {
     public partial class Form2 : Form
     {
-        List<Object> listOfCoursesToDisplay = Form1.listOfAllCourses;
+        List<Course> listOfCoursesToDisplay = Form1.listOfAllCourses;
         int numberOfCoursesToDisplay = Form1.numberOfCourses;
-        object course1 = Form1.course;
-
-
+       
 
         public Form2()
         {
             InitializeComponent();
             //richTextBox1.Text = Form1.fileContent;
+            displayCourses();
         }
 
         private void displayCourses()
         {
-            object course1 = listOfCoursesToDisplay[0];
-            object course2 = listOfCoursesToDisplay[1];
-            object course3 = listOfCoursesToDisplay[2];
-            object course4 = listOfCoursesToDisplay[3];
-            object course5 = listOfCoursesToDisplay[4];
-            object course6 = listOfCoursesToDisplay[5];
-            object course7 = listOfCoursesToDisplay[6];
-            object course8 = listOfCoursesToDisplay[7];
+            Course course1 = listOfCoursesToDisplay[0];
+            Course course2 = listOfCoursesToDisplay[1];
+            Course course3 = listOfCoursesToDisplay[2];
+            Course course4 = listOfCoursesToDisplay[3];
+            Course course5 = listOfCoursesToDisplay[4];
+            //Course course6 = listOfCoursesToDisplay[5];
+            //Course course7 = listOfCoursesToDisplay[6];
+            //Course course8 = listOfCoursesToDisplay[7];
 
-            string s = course1.getSubject();
+            string subject = course1.Subject;
+            string number = course1.Number;
+            string instructor = course1.Instructor;
+            string days = course1.Days;
+            string startTime = course1.StartTime;
+            string endTime = course1.EndTime;
+            string building = course1.Building;
+            string room = course1.Room;
+
+            subj1.Text = subject;
+            no1.Text = number;
+            instr1.Text = instructor;
+            day1.Text = days;
+            start1.Text = startTime;
+            end1.Text = endTime;
+            build1.Text = building;
+            room1.Text = room;
+
         }
 
         private void button1_Click(object sender, EventArgs e)

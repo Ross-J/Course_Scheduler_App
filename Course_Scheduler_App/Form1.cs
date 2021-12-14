@@ -14,9 +14,9 @@ namespace Course_Scheduler_App
     public partial class Form1 : Form
     {
         public static string fileContent = "";
-        public static List<Object> listOfAllCourses = new List<Object>();
+        public static List<Course> listOfAllCourses = new List<Course>();
         public static int numberOfCourses = 0;
-        public static object course;
+        
 
         public Form1()
         {
@@ -82,8 +82,7 @@ namespace Course_Scheduler_App
                 }
             }
 
-            var course1 = new Course(subject, number, instructor, days, startTime, endTime, building, room);
-            course = course1;
+            var course = new Course(subject, number, instructor, days, startTime, endTime, building, room);
             listOfAllCourses.Add(course);
             numberOfCourses++;
         }
@@ -120,6 +119,31 @@ namespace Course_Scheduler_App
                             parseData(fileContent);
                         }
                         
+                    }
+                }
+            }
+
+    
+        }
+
+        private void checkForInitialConflicts()
+        {
+            List<Course> coursesToCheck = new List<Course>();
+            bool isConflicts = false;
+
+            foreach (Course c in listOfAllCourses)
+            {
+                foreach (Course c2 in listOfAllCourses)
+                {
+                    if (c2.Building == c.Building)
+                    {
+                        foreach (Course c3 in coursesToCheck)
+                        {
+                            if(c3 != c2)
+                            {
+                                coursesToCheck.Add(c2);
+                            }
+                        }
                     }
                 }
             }
