@@ -157,7 +157,7 @@ namespace Course_Scheduler_App
             this.comboBox1.Size = new System.Drawing.Size(188, 17);
             this.comboBox1.TabIndex = 33;
             this.comboBox1.Text = "Select Instructor Name";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged_1);
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 
