@@ -23,10 +23,10 @@ namespace Course_Scheduler_App
             InitializeComponent();
             //parseData("CSC,370,Locklair,MWF,1:10,2:25,Stuenkel,118B");
         }
-
-        private bool ButtonRestrictor()
+        bool Restrictor = true;
+        public bool ButtonRestrictor()
         {
-            bool Restrictor = true;
+            
             if (fileContent == "")
             {
                 Restrictor = true;
@@ -178,16 +178,34 @@ namespace Course_Scheduler_App
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var m = new Form3();
-            m.Show();
-            this.Hide();
+            if (Restrictor == true)
+            {
+                conflictMessage.Visible = true;
+                conflictMessage.ForeColor = System.Drawing.Color.Red;
+                conflictMessage.Text = "Insert a File!";
+            }
+            else {
+                var m = new Form3();
+                m.Show();
+                this.Hide();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var m = new Form2();
+            if (Restrictor == true)
+            {
+                conflictMessage.Visible = true;
+                conflictMessage.ForeColor = System.Drawing.Color.Red;
+                conflictMessage.Text = "Insert a File!";
+            }
+            else
+            {
+
+                var m = new Form2();
             m.Show();
             this.Hide();
+                }
         }
 
         private void Form1_Load(object sender, EventArgs e)
