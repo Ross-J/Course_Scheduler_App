@@ -20,12 +20,54 @@ namespace Course_Scheduler_App
         {
             InitializeComponent();
             //richTextBox1.Text = Form1.fileContent;
-            displayCourses(listOfCoursesToDisplay, numberOfCoursesToDisplay);
+            displayCourses();
         }
 
-        private void displayCourses(List<Course> courseList, int numberOfCourses)
+        private void displayCourses()
         {
-            Course course1 = listOfCoursesToDisplay[0];
+            for (int i = 0; i < numberOfCoursesToDisplay; i++) 
+            { 
+                if (listOfCoursesToDisplay != null)
+                {
+                    
+                    
+                    foreach (Course kv in listOfCoursesToDisplay)
+                    {
+                        var groupbox = new GroupBox();
+                        
+                        var label = new Label();
+                        label.Text = kv.Subject;
+                        this.Controls.Add(label);
+                        label.Location = new Point(20, 20);
+                        
+
+                        var label2 = new Label();
+                        label2.Text = kv.Number;
+                        var label3 = new Label();
+                        label3.Text = kv.Instructor;
+                        var label4 = new Label();
+                        label4.Text = kv.Days;
+                        var label5 = new Label();
+                        label5.Text = kv.StartTime;
+                        var label6 = new Label();
+                        label6.Text = kv.EndTime;
+                        var label7 = new Label();
+                        label7.Text = kv.Building;
+                        var label8 = new Label();
+                        label8.Text = kv.Room;
+
+                        
+
+                    }
+                }
+            }
+        }
+            
+                
+            
+           
+            
+            /* Course course1 = listOfCoursesToDisplay[0];
             Course course2 = listOfCoursesToDisplay[1];
             Course course3 = listOfCoursesToDisplay[2];
             Course course4 = listOfCoursesToDisplay[3];
@@ -43,15 +85,17 @@ namespace Course_Scheduler_App
             string building = course1.Building;
             string room = course1.Room;
 
-            subj1.Text = subject;
+
+
+            /*.subj1.Text = subject;
             no1.Text = number;
             instr1.Text = instructor;
             day1.Text = days;
             start1.Text = startTime;
             end1.Text = endTime;
             build1.Text = building;
-            room1.Text = room;
-        }
+            room1.Text = room;*/
+        
 
         private bool checkForInstructorConflicts()
         {
@@ -73,7 +117,7 @@ namespace Course_Scheduler_App
 
         private void groupBox7_Enter(object sender, EventArgs e)
         {
-     
+            this.Controls.Add(Parent);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -89,7 +133,7 @@ namespace Course_Scheduler_App
                     numberOfInstructorCourses++;
                 }
             }
-            displayCourses(listOfCoursesWithInstructor, numberOfInstructorCourses);
+            //displayCourses(listOfCoursesWithInstructor, numberOfInstructorCourses);
         }
 
         private void groupBox11_Enter(object sender, EventArgs e)
@@ -102,6 +146,11 @@ namespace Course_Scheduler_App
   private void Createlabel(Label test)
   {
       groupBox7.Controls.Add(test);
+        }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }
