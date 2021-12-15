@@ -137,5 +137,10 @@ namespace Course_Scheduler_App
         {
 
         }
+
+        private void addButton7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
