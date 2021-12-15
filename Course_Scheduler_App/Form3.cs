@@ -15,11 +15,24 @@ namespace Course_Scheduler_App
         List<Course> listOfCoursesToDisplay = Form1.listOfAllCourses;
         int numberOfCoursesToDisplay = Form1.numberOfCourses;
         List<Course> listOfStudentCourses = new List<Course>();
+        int numberOfStudentCourses = 0;
+
+        List<CheckBox> listOfCheckBoxes = new List<CheckBox>();
+        
+
 
         public Form3()
         {
             InitializeComponent();
-            displayStudentCourses(listOfCoursesToDisplay, 1);
+            displayCourses(listOfCoursesToDisplay, numberOfCoursesToDisplay);
+            listOfCheckBoxes.Add(checkBox1);
+            listOfCheckBoxes.Add(checkBox2);
+            listOfCheckBoxes.Add(checkBox3);
+            listOfCheckBoxes.Add(checkBox4);
+            listOfCheckBoxes.Add(checkBox5);
+            listOfCheckBoxes.Add(checkBox6);
+            listOfCheckBoxes.Add(checkBox7);
+            listOfCheckBoxes.Add(checkBox8);
         }
 
         private void displayCourses(List<Course> courseList, int numberOfCourses)
@@ -124,7 +137,7 @@ namespace Course_Scheduler_App
                 listOfLabels[pos + 7].Text = c.Room;
 
                 g.Visible = true;
-                //pos = pos + 8;
+                pos = pos + 8;
             }
 
 
@@ -235,7 +248,7 @@ namespace Course_Scheduler_App
                 listOfLabels[pos + 7].Text = c.Room;
 
                 g.Visible = true;
-                //pos = pos + 8;
+                pos = pos + 8;
             }
             
             
@@ -265,6 +278,35 @@ namespace Course_Scheduler_App
         }
 
         private void addButton7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[0];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
+        private void addButton2_Click(object sender, EventArgs e)
+        {
+            displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
+            foreach (CheckBox c in listOfCheckBoxes)
+            {
+                if(c.Checked == true)
+                {
+                    c.Visible = false;
+                }
+            }
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
 
         }
