@@ -278,19 +278,22 @@ namespace Course_Scheduler_App
 
         private void groupBox11_Enter(object sender, EventArgs e)
         {
-             Label test = new Label();
-      Createlabel(test);
+           
 
   }
 
   private void Createlabel(Label test)
   {
-      groupBox7.Controls.Add(test);
+     
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+        }   
     }
 }
