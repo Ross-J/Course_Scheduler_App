@@ -325,6 +325,7 @@ namespace Course_Scheduler_App
                 label1.Text = "No time conflicts exist in the instructor schedule.";
             }
         }
+
     }
 }
 

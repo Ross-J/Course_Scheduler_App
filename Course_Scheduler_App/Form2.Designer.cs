@@ -234,6 +234,7 @@ namespace Course_Scheduler_App
             this.checkBox8.Size = new System.Drawing.Size(18, 17);
             this.checkBox8.TabIndex = 56;
             this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.Visible = false;
             // 
             // Csubj8
             // 
@@ -346,6 +347,7 @@ namespace Course_Scheduler_App
             this.checkBox7.Size = new System.Drawing.Size(18, 17);
             this.checkBox7.TabIndex = 56;
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.Visible = false;
             // 
             // Csubj7
             // 
@@ -458,6 +460,7 @@ namespace Course_Scheduler_App
             this.checkBox6.Size = new System.Drawing.Size(18, 17);
             this.checkBox6.TabIndex = 56;
             this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.Visible = false;
             // 
             // Csubj6
             // 
@@ -570,6 +573,7 @@ namespace Course_Scheduler_App
             this.checkBox5.Size = new System.Drawing.Size(18, 17);
             this.checkBox5.TabIndex = 56;
             this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.Visible = false;
             // 
             // Csubj5
             // 
@@ -682,6 +686,7 @@ namespace Course_Scheduler_App
             this.checkBox4.Size = new System.Drawing.Size(18, 17);
             this.checkBox4.TabIndex = 56;
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.Visible = false;
             // 
             // Csubj4
             // 
@@ -794,6 +799,7 @@ namespace Course_Scheduler_App
             this.checkBox3.Size = new System.Drawing.Size(18, 17);
             this.checkBox3.TabIndex = 56;
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.Visible = false;
             // 
             // Csubj3
             // 
@@ -906,6 +912,7 @@ namespace Course_Scheduler_App
             this.checkBox2.Size = new System.Drawing.Size(18, 17);
             this.checkBox2.TabIndex = 56;
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.Visible = false;
             // 
             // Csubj2
             // 
@@ -1018,6 +1025,7 @@ namespace Course_Scheduler_App
             this.checkBox1.Size = new System.Drawing.Size(18, 17);
             this.checkBox1.TabIndex = 55;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Visible = false;
             // 
             // Csubj1
             // 
