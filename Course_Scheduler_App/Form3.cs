@@ -44,15 +44,16 @@ namespace Course_Scheduler_App
             List<Label> listOfLabels = new List<Label>();
             List<GroupBox> listOfGroupBoxes = new List<GroupBox>();
 
-            listOfLabels.Add(label1);
-            listOfLabels.Add(no1);
-            listOfLabels.Add(instr1);
-            listOfLabels.Add(day1);
-            listOfLabels.Add(start1);
-            listOfLabels.Add(end1);
-            listOfLabels.Add(build1);
-            listOfLabels.Add(room1);
-
+            
+            listOfLabels.Add(Csubj1);
+            listOfLabels.Add(Cno1);
+            listOfLabels.Add(Cinstr1);
+            listOfLabels.Add(Cday1);
+            listOfLabels.Add(Cstart1);
+            listOfLabels.Add(Cend1);
+            listOfLabels.Add(Cbuild1);
+            listOfLabels.Add(Croom1);
+            
             listOfGroupBoxes.Add(groupBox1);
             listOfGroupBoxes.Add(groupBox2);
             listOfGroupBoxes.Add(groupBox3);
