@@ -149,7 +149,6 @@ namespace Course_Scheduler_App
             this.comboBox1.Size = new System.Drawing.Size(188, 17);
             this.comboBox1.TabIndex = 33;
             this.comboBox1.Text = "Enter Instructor Name";
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -164,7 +163,7 @@ namespace Course_Scheduler_App
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(608, 386);
+            this.button2.Location = new System.Drawing.Point(733, 471);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(116, 36);
@@ -181,13 +180,13 @@ namespace Course_Scheduler_App
             this.groupBox7.Controls.Add(this.groupBox5);
             this.groupBox7.Controls.Add(this.groupBox2);
             this.groupBox7.Location = new System.Drawing.Point(83, 126);
+            this.groupBox7.Controls.Add(this.groupBox2);
+            this.groupBox7.Location = new System.Drawing.Point(83, 126);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(694, 660);
+            this.groupBox7.Size = new System.Drawing.Size(594, 508);
             this.groupBox7.TabIndex = 57;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Course Schedule";
-            this.groupBox7.Enter += new System.EventHandler(this.groupBox7_Enter);
-            // 
             // groupBox4
             // 
             this.groupBox4.Controls.Add(this.room4);
@@ -1053,6 +1052,8 @@ namespace Course_Scheduler_App
             this.checkBox2.TabIndex = 45;
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
             // groupBox10
             // 
             this.groupBox10.Controls.Add(this.label33);
@@ -1164,9 +1165,9 @@ namespace Course_Scheduler_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1336, 647);
-            this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.button2);
@@ -1174,8 +1175,6 @@ namespace Course_Scheduler_App
             this.Controls.Add(this.comboBox1);
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
-            this.Text = "Form2";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
             this.groupBox7.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
@@ -1194,6 +1193,8 @@ namespace Course_Scheduler_App
             this.groupBox5.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.ResumeLayout(false);
@@ -1205,36 +1206,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label room4;
-        private System.Windows.Forms.Label build4;
-        private System.Windows.Forms.Label end4;
-        private System.Windows.Forms.Label start4;
-        private System.Windows.Forms.Label day4;
-        private System.Windows.Forms.Label instr4;
-        private System.Windows.Forms.Label no4;
-        private System.Windows.Forms.Label subj4;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label room1;
-        private System.Windows.Forms.Label build1;
-        private System.Windows.Forms.Label end1;
-        private System.Windows.Forms.Label start1;
-        private System.Windows.Forms.Label day1;
-        private System.Windows.Forms.Label instr1;
-        private System.Windows.Forms.Label no1;
-        private System.Windows.Forms.Label subj1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label room2;
-        private System.Windows.Forms.Label build2;
-        private System.Windows.Forms.Label end2;
-        private System.Windows.Forms.Label start2;
-        private System.Windows.Forms.Label day2;
-        private System.Windows.Forms.Label instr2;
-        private System.Windows.Forms.Label no2;
-        private System.Windows.Forms.Label subj2;
-        private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label room3;
         private System.Windows.Forms.Label build3;
@@ -1245,46 +1216,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label no3;
         private System.Windows.Forms.Label subj3;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.CheckBox checkBox8;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
