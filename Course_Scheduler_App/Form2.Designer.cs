@@ -33,16 +33,6 @@ namespace Course_Scheduler_App
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.room3 = new System.Windows.Forms.Label();
-            this.build3 = new System.Windows.Forms.Label();
-            this.end3 = new System.Windows.Forms.Label();
-            this.start3 = new System.Windows.Forms.Label();
-            this.day3 = new System.Windows.Forms.Label();
-            this.instr3 = new System.Windows.Forms.Label();
-            this.no3 = new System.Windows.Forms.Label();
-            this.subj3 = new System.Windows.Forms.Label();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -53,7 +43,6 @@ namespace Course_Scheduler_App
             this.label39 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.groupBox3.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -102,107 +91,6 @@ namespace Course_Scheduler_App
             this.groupBox7.Size = new System.Drawing.Size(267, 123);
             this.groupBox7.TabIndex = 59;
             this.groupBox7.TabStop = false;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.room3);
-            this.groupBox3.Controls.Add(this.build3);
-            this.groupBox3.Controls.Add(this.end3);
-            this.groupBox3.Controls.Add(this.start3);
-            this.groupBox3.Controls.Add(this.day3);
-            this.groupBox3.Controls.Add(this.instr3);
-            this.groupBox3.Controls.Add(this.no3);
-            this.groupBox3.Controls.Add(this.subj3);
-            this.groupBox3.Controls.Add(this.checkBox3);
-            this.groupBox3.Location = new System.Drawing.Point(111, 374);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox3.Size = new System.Drawing.Size(925, 80);
-            this.groupBox3.TabIndex = 58;
-            this.groupBox3.TabStop = false;
-            // 
-            // room3
-            // 
-            this.room3.AutoSize = true;
-            this.room3.Location = new System.Drawing.Point(631, 21);
-            this.room3.Name = "room3";
-            this.room3.Size = new System.Drawing.Size(54, 17);
-            this.room3.TabIndex = 53;
-            this.room3.Text = "label18";
-            // 
-            // build3
-            // 
-            this.build3.AutoSize = true;
-            this.build3.Location = new System.Drawing.Point(552, 21);
-            this.build3.Name = "build3";
-            this.build3.Size = new System.Drawing.Size(54, 17);
-            this.build3.TabIndex = 52;
-            this.build3.Text = "label19";
-            // 
-            // end3
-            // 
-            this.end3.AutoSize = true;
-            this.end3.Location = new System.Drawing.Point(460, 21);
-            this.end3.Name = "end3";
-            this.end3.Size = new System.Drawing.Size(54, 17);
-            this.end3.TabIndex = 51;
-            this.end3.Text = "label20";
-            // 
-            // start3
-            // 
-            this.start3.AutoSize = true;
-            this.start3.Location = new System.Drawing.Point(367, 20);
-            this.start3.Name = "start3";
-            this.start3.Size = new System.Drawing.Size(54, 17);
-            this.start3.TabIndex = 50;
-            this.start3.Text = "label21";
-            // 
-            // day3
-            // 
-            this.day3.AutoSize = true;
-            this.day3.Location = new System.Drawing.Point(287, 21);
-            this.day3.Name = "day3";
-            this.day3.Size = new System.Drawing.Size(54, 17);
-            this.day3.TabIndex = 49;
-            this.day3.Text = "label22";
-            // 
-            // instr3
-            // 
-            this.instr3.AutoSize = true;
-            this.instr3.Location = new System.Drawing.Point(207, 21);
-            this.instr3.Name = "instr3";
-            this.instr3.Size = new System.Drawing.Size(54, 17);
-            this.instr3.TabIndex = 48;
-            this.instr3.Text = "label23";
-            // 
-            // no3
-            // 
-            this.no3.AutoSize = true;
-            this.no3.Location = new System.Drawing.Point(128, 21);
-            this.no3.Name = "no3";
-            this.no3.Size = new System.Drawing.Size(54, 17);
-            this.no3.TabIndex = 47;
-            this.no3.Text = "label24";
-            // 
-            // subj3
-            // 
-            this.subj3.AutoSize = true;
-            this.subj3.Location = new System.Drawing.Point(52, 21);
-            this.subj3.Name = "subj3";
-            this.subj3.Size = new System.Drawing.Size(54, 17);
-            this.subj3.TabIndex = 46;
-            this.subj3.Text = "label25";
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(0, 21);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(18, 17);
-            this.checkBox3.TabIndex = 45;
-            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // groupBox10
             // 
@@ -315,17 +203,17 @@ namespace Course_Scheduler_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(376, 311);
-            this.Controls.Add(this.groupBox3);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(1228, 625);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form2_Load);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.ResumeLayout(false);
@@ -337,16 +225,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label room3;
-        private System.Windows.Forms.Label build3;
-        private System.Windows.Forms.Label end3;
-        private System.Windows.Forms.Label start3;
-        private System.Windows.Forms.Label day3;
-        private System.Windows.Forms.Label instr3;
-        private System.Windows.Forms.Label no3;
-        private System.Windows.Forms.Label subj3;
-        private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
