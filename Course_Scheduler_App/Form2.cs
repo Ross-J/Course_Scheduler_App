@@ -295,6 +295,24 @@ namespace Course_Scheduler_App
 
         private void button2_Click(object sender, EventArgs e)
         {
-        }   
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex == 1)
+            {
+
+                foreach (Course nk in listOfCoursesToDisplay) {
+
+                    if (nk.Instructor == comboBox1.Text)
+                    {
+                        displayCourses(listOfCoursesToDisplay, numberOfCoursesToDisplay);
+                    }
+
+                    else return;
+                }
+
+            }
+        }
     }
 }
