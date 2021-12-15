@@ -294,6 +294,55 @@ namespace Course_Scheduler_App
             numberOfStudentCourses++;
         }
 
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[1];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[2];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[3];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
+        private void checkBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[4];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
+        private void checkBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[5];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
+        private void checkBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[6];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
+        private void checkBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            Course c = listOfCoursesToDisplay[7];
+            listOfStudentCourses.Add(c);
+            numberOfStudentCourses++;
+        }
+
         private void addButton2_Click(object sender, EventArgs e)
         {
             displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
@@ -306,9 +355,5 @@ namespace Course_Scheduler_App
             }
         }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
