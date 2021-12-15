@@ -22,29 +22,12 @@ namespace Course_Scheduler_App
             displayStudentCourses(listOfCoursesToDisplay, 1);
         }
 
-        private void displayCourses()
-        {
-            Course course1 = listOfCoursesToDisplay[0];
-            Course course2 = listOfCoursesToDisplay[1];
-            Course course3 = listOfCoursesToDisplay[2];
-            Course course4 = listOfCoursesToDisplay[3];
-            Course course5 = listOfCoursesToDisplay[4];
-            Course course6 = listOfCoursesToDisplay[5];
-            Course course7 = listOfCoursesToDisplay[6];
-            Course course8 = listOfCoursesToDisplay[7];
-
-
-           
-
-            
-        }
-
-        private void displayStudentCourses(List<Course> courseList, int numberOfCourses)
+        private void displayCourses(List<Course> courseList, int numberOfCourses)
         {
             List<Label> listOfLabels = new List<Label>();
             List<GroupBox> listOfGroupBoxes = new List<GroupBox>();
 
-            
+
             listOfLabels.Add(Csubj1);
             listOfLabels.Add(Cno1);
             listOfLabels.Add(Cinstr1);
@@ -53,6 +36,54 @@ namespace Course_Scheduler_App
             listOfLabels.Add(Cend1);
             listOfLabels.Add(Cbuild1);
             listOfLabels.Add(Croom1);
+
+            listOfGroupBoxes.Add(groupBox1);
+            listOfGroupBoxes.Add(groupBox2);
+            listOfGroupBoxes.Add(groupBox3);
+            listOfGroupBoxes.Add(groupBox4);
+            listOfGroupBoxes.Add(groupBox5);
+            listOfGroupBoxes.Add(groupBox6);
+            listOfGroupBoxes.Add(groupBox7);
+            listOfGroupBoxes.Add(groupBox8);
+
+            int pos = 0;
+            for (int i = 0; i < numberOfCourses; i++)
+            {
+                Course c = courseList[i];
+                GroupBox g = listOfGroupBoxes[i];
+                listOfLabels[pos].Text = c.Subject;
+                listOfLabels[pos + 1].Text = c.Number;
+                listOfLabels[pos + 2].Text = c.Instructor;
+                listOfLabels[pos + 3].Text = c.Days;
+                listOfLabels[pos + 4].Text = c.StartTime;
+                listOfLabels[pos + 5].Text = c.EndTime;
+                listOfLabels[pos + 6].Text = c.Building;
+                listOfLabels[pos + 7].Text = c.Room;
+
+                g.Visible = true;
+                //pos = pos + 8;
+            }
+
+
+
+
+
+        }
+
+        private void displayStudentCourses(List<Course> courseList, int numberOfCourses)
+        {
+            List<Label> listOfLabels = new List<Label>();
+            List<GroupBox> listOfGroupBoxes = new List<GroupBox>();
+
+            
+            listOfLabels.Add(Ssubj1);
+            listOfLabels.Add(Sno1);
+            listOfLabels.Add(Sinstr1);
+            listOfLabels.Add(Sday1);
+            listOfLabels.Add(Sstart1);
+            listOfLabels.Add(Send1);
+            listOfLabels.Add(Sbuild1);
+            listOfLabels.Add(Sroom1);
             
             listOfGroupBoxes.Add(groupBox1);
             listOfGroupBoxes.Add(groupBox2);
