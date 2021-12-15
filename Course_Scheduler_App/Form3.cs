@@ -349,7 +349,7 @@ namespace Course_Scheduler_App
             if(listOfStudentCourses.Count != 0)
             {
                 displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
-                foreach (CheckBox c in listOfCheckBoxes)
+                foreach (CheckBox c in listOfCheckBoxes1)
                 {
                     if (c.Checked == true)
                     {
@@ -369,13 +369,7 @@ namespace Course_Scheduler_App
             if (listOfStudentCourses.Count != 0)
             {
                 displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
-                foreach (CheckBox c in listOfCheckBoxes)
-                {
-                    if (c.Checked == true)
-                    {
-                        c.Visible = false;
-                    }
-                }
+
             }
             else
             {
