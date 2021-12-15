@@ -16,14 +16,14 @@ namespace Course_Scheduler_App
         public static string fileContent = "";
         public static List<Course> listOfAllCourses = new List<Course>();
         public static int numberOfCourses = 0;
-        
+
 
         public Form1()
         {
             InitializeComponent();
             //parseData("CSC,370,Locklair,MWF,1:10,2:25,Stuenkel,118B");
         }
-        bool Restrictor = true;
+
         public bool ButtonRestrictor()
         {
             
@@ -34,8 +34,6 @@ namespace Course_Scheduler_App
             else
             {
                 return false;
-               
-              
             }
 
         }
@@ -101,7 +99,11 @@ namespace Course_Scheduler_App
             listOfAllCourses.Add(course);
             numberOfCourses++;
         }
-       
+
+        
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             var filePath = string.Empty;
@@ -178,7 +180,7 @@ namespace Course_Scheduler_App
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (Restrictor == true)
+            if (ButtonRestrictor() == true)
             {
                 conflictMessage.Visible = true;
                 conflictMessage.ForeColor = System.Drawing.Color.Red;
@@ -193,7 +195,7 @@ namespace Course_Scheduler_App
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (Restrictor == true)
+            if (ButtonRestrictor() == true)
             {
                 conflictMessage.Visible = true;
                 conflictMessage.ForeColor = System.Drawing.Color.Red;
