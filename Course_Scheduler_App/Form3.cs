@@ -278,75 +278,31 @@ namespace Course_Scheduler_App
 
         }
 
-        private void addButton7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void addButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[0];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[1];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
-
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[2];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
-
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[3];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
-
-        private void checkBox5_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[4];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
-
-        private void checkBox6_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[5];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
-
-        private void checkBox7_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[6];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
-
-        private void checkBox8_CheckedChanged(object sender, EventArgs e)
-        {
-            Course c = listOfCoursesToDisplay[7];
-            listOfStudentCourses.Add(c);
-            numberOfStudentCourses++;
-        }
 
         private void addButton2_Click(object sender, EventArgs e)
-        {
-            if(listOfStudentCourses.Count != 0)
+        { 
+            for(int i = 0; i < listOfCheckBoxes1.Count; i++)
+            {
+                CheckBox cb = listOfCheckBoxes1[i];
+                if (cb.Checked = true)
+                {
+                    foreach (Course c in listOfStudentCourses)
+                    {
+                        bool isInList = false;
+                        if(c == listOfCoursesToDisplay[i])
+                        {
+                            isInList = true;
+                        }
+                        if(isInList == false)
+                        {
+                            listOfStudentCourses.Add(listOfCoursesToDisplay[i]);
+                            numberOfStudentCourses++;
+                        }
+                    }
+                    
+                }
+            }
+            if (listOfStudentCourses.Count != 0)
             {
                 displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
                 foreach (CheckBox c in listOfCheckBoxes1)
@@ -360,21 +316,7 @@ namespace Course_Scheduler_App
             else
             {
                 MessageBox.Show("No courses are selected. Please select all courses you want to add.", "Error");
-            }
-            
-        }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            if (listOfStudentCourses.Count != 0)
-            {
-                displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
-
-            }
-            else
-            {
-                MessageBox.Show("No courses are selected. Please select all courses you want to remove or add if there are no student courses.", "Error");
-            }
+            }            
         }
 
         private void removeCourseButton_Click(object sender, EventArgs e)
