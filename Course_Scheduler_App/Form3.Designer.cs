@@ -119,6 +119,7 @@ namespace Course_Scheduler_App
             this.subj1 = new System.Windows.Forms.Label();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.Ssubj7 = new System.Windows.Forms.Label();
             this.Sroom7 = new System.Windows.Forms.Label();
             this.Sbuild7 = new System.Windows.Forms.Label();
@@ -129,6 +130,7 @@ namespace Course_Scheduler_App
             this.Sno7 = new System.Windows.Forms.Label();
             this.label135 = new System.Windows.Forms.Label();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.Ssubj4 = new System.Windows.Forms.Label();
             this.Sroom4 = new System.Windows.Forms.Label();
             this.Sbuild4 = new System.Windows.Forms.Label();
@@ -139,6 +141,7 @@ namespace Course_Scheduler_App
             this.Sno4 = new System.Windows.Forms.Label();
             this.label108 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
             this.Ssubj1 = new System.Windows.Forms.Label();
             this.Sroom1 = new System.Windows.Forms.Label();
             this.Sbuild1 = new System.Windows.Forms.Label();
@@ -177,6 +180,7 @@ namespace Course_Scheduler_App
             this.Cno2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
             this.Ssubj2 = new System.Windows.Forms.Label();
             this.Sroom2 = new System.Windows.Forms.Label();
             this.Sbuild2 = new System.Windows.Forms.Label();
@@ -187,6 +191,7 @@ namespace Course_Scheduler_App
             this.Sno2 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
             this.Ssubj3 = new System.Windows.Forms.Label();
             this.Sroom3 = new System.Windows.Forms.Label();
             this.Sbuild3 = new System.Windows.Forms.Label();
@@ -197,6 +202,7 @@ namespace Course_Scheduler_App
             this.Sno3 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
             this.Ssubj5 = new System.Windows.Forms.Label();
             this.Sroom5 = new System.Windows.Forms.Label();
             this.Sbuild5 = new System.Windows.Forms.Label();
@@ -207,6 +213,7 @@ namespace Course_Scheduler_App
             this.Sno5 = new System.Windows.Forms.Label();
             this.label117 = new System.Windows.Forms.Label();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
             this.Ssubj6 = new System.Windows.Forms.Label();
             this.Sroom6 = new System.Windows.Forms.Label();
             this.Sbuild6 = new System.Windows.Forms.Label();
@@ -217,6 +224,7 @@ namespace Course_Scheduler_App
             this.Sno6 = new System.Windows.Forms.Label();
             this.label126 = new System.Windows.Forms.Label();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.Ssubj8 = new System.Windows.Forms.Label();
             this.Sroom8 = new System.Windows.Forms.Label();
             this.Sbuild8 = new System.Windows.Forms.Label();
@@ -228,14 +236,6 @@ namespace Course_Scheduler_App
             this.label144 = new System.Windows.Forms.Label();
             this.addCourseButton = new System.Windows.Forms.Button();
             this.removeCourseButton = new System.Windows.Forms.Button();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.groupBox17.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -414,6 +414,7 @@ namespace Course_Scheduler_App
             this.checkBox8.Size = new System.Drawing.Size(18, 17);
             this.checkBox8.TabIndex = 56;
             this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.CheckedChanged += new System.EventHandler(this.checkBox8_CheckedChanged);
             // 
             // Csubj8
             // 
@@ -525,6 +526,7 @@ namespace Course_Scheduler_App
             this.checkBox7.Size = new System.Drawing.Size(18, 17);
             this.checkBox7.TabIndex = 56;
             this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.CheckedChanged += new System.EventHandler(this.checkBox7_CheckedChanged);
             // 
             // Csubj7
             // 
@@ -636,6 +638,7 @@ namespace Course_Scheduler_App
             this.checkBox6.Size = new System.Drawing.Size(18, 17);
             this.checkBox6.TabIndex = 56;
             this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
             // 
             // Csubj6
             // 
@@ -747,6 +750,7 @@ namespace Course_Scheduler_App
             this.checkBox5.Size = new System.Drawing.Size(18, 17);
             this.checkBox5.TabIndex = 56;
             this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.CheckedChanged += new System.EventHandler(this.checkBox5_CheckedChanged);
             // 
             // Csubj5
             // 
@@ -858,6 +862,7 @@ namespace Course_Scheduler_App
             this.checkBox4.Size = new System.Drawing.Size(18, 17);
             this.checkBox4.TabIndex = 56;
             this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
             // Csubj4
             // 
@@ -969,6 +974,7 @@ namespace Course_Scheduler_App
             this.checkBox3.Size = new System.Drawing.Size(18, 17);
             this.checkBox3.TabIndex = 56;
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // Csubj3
             // 
@@ -1080,6 +1086,7 @@ namespace Course_Scheduler_App
             this.checkBox1.Size = new System.Drawing.Size(18, 17);
             this.checkBox1.TabIndex = 55;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // Csubj1
             // 
@@ -1197,6 +1204,15 @@ namespace Course_Scheduler_App
             this.groupBox15.TabStop = false;
             this.groupBox15.Visible = false;
             // 
+            // checkBox16
+            // 
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Location = new System.Drawing.Point(6, 22);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(18, 17);
+            this.checkBox16.TabIndex = 62;
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
             // Ssubj7
             // 
             this.Ssubj7.AutoSize = true;
@@ -1299,6 +1315,15 @@ namespace Course_Scheduler_App
             this.groupBox12.TabStop = false;
             this.groupBox12.Visible = false;
             // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(6, 24);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(18, 17);
+            this.checkBox13.TabIndex = 59;
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
             // Ssubj4
             // 
             this.Ssubj4.AutoSize = true;
@@ -1400,6 +1425,16 @@ namespace Course_Scheduler_App
             this.groupBox9.TabIndex = 62;
             this.groupBox9.TabStop = false;
             this.groupBox9.Visible = false;
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(6, 24);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(18, 17);
+            this.checkBox10.TabIndex = 56;
+            this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox10.CheckedChanged += new System.EventHandler(this.checkBox10_CheckedChanged);
             // 
             // Ssubj1
             // 
@@ -1690,6 +1725,7 @@ namespace Course_Scheduler_App
             this.checkBox2.Size = new System.Drawing.Size(18, 17);
             this.checkBox2.TabIndex = 56;
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged_1);
             // 
             // Csubj2
             // 
@@ -1793,6 +1829,15 @@ namespace Course_Scheduler_App
             this.groupBox10.TabStop = false;
             this.groupBox10.Visible = false;
             // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Location = new System.Drawing.Point(6, 24);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(18, 17);
+            this.checkBox11.TabIndex = 57;
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
             // Ssubj2
             // 
             this.Ssubj2.AutoSize = true;
@@ -1894,6 +1939,15 @@ namespace Course_Scheduler_App
             this.groupBox11.TabIndex = 63;
             this.groupBox11.TabStop = false;
             this.groupBox11.Visible = false;
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(6, 22);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(18, 17);
+            this.checkBox12.TabIndex = 58;
+            this.checkBox12.UseVisualStyleBackColor = true;
             // 
             // Ssubj3
             // 
@@ -1997,6 +2051,15 @@ namespace Course_Scheduler_App
             this.groupBox13.TabStop = false;
             this.groupBox13.Visible = false;
             // 
+            // checkBox14
+            // 
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Location = new System.Drawing.Point(6, 24);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(18, 17);
+            this.checkBox14.TabIndex = 60;
+            this.checkBox14.UseVisualStyleBackColor = true;
+            // 
             // Ssubj5
             // 
             this.Ssubj5.AutoSize = true;
@@ -2098,6 +2161,15 @@ namespace Course_Scheduler_App
             this.groupBox14.TabIndex = 63;
             this.groupBox14.TabStop = false;
             this.groupBox14.Visible = false;
+            // 
+            // checkBox15
+            // 
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(6, 22);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(18, 17);
+            this.checkBox15.TabIndex = 61;
+            this.checkBox15.UseVisualStyleBackColor = true;
             // 
             // Ssubj6
             // 
@@ -2201,6 +2273,15 @@ namespace Course_Scheduler_App
             this.groupBox16.TabStop = false;
             this.groupBox16.Visible = false;
             // 
+            // checkBox17
+            // 
+            this.checkBox17.AutoSize = true;
+            this.checkBox17.Location = new System.Drawing.Point(6, 22);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(18, 17);
+            this.checkBox17.TabIndex = 63;
+            this.checkBox17.UseVisualStyleBackColor = true;
+            // 
             // Ssubj8
             // 
             this.Ssubj8.AutoSize = true;
@@ -2302,78 +2383,6 @@ namespace Course_Scheduler_App
             this.removeCourseButton.Text = "Remove Course(s)";
             this.removeCourseButton.UseVisualStyleBackColor = true;
             this.removeCourseButton.Click += new System.EventHandler(this.removeCourseButton_Click);
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(6, 24);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(18, 17);
-            this.checkBox10.TabIndex = 56;
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(6, 24);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(18, 17);
-            this.checkBox11.TabIndex = 57;
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(6, 22);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(18, 17);
-            this.checkBox12.TabIndex = 58;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(6, 24);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(18, 17);
-            this.checkBox13.TabIndex = 59;
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(6, 24);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(18, 17);
-            this.checkBox14.TabIndex = 60;
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(6, 22);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(18, 17);
-            this.checkBox15.TabIndex = 61;
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(6, 22);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(18, 17);
-            this.checkBox16.TabIndex = 62;
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(6, 22);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(18, 17);
-            this.checkBox17.TabIndex = 63;
-            this.checkBox17.UseVisualStyleBackColor = true;
             // 
             // Form3
             // 

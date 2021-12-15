@@ -20,7 +20,8 @@ namespace Course_Scheduler_App
         {
             InitializeComponent();
             //richTextBox1.Text = Form1.fileContent;
-            //displayCourses();
+            displayCourses(listOfCoursesToDisplay, numberOfCoursesToDisplay);
+
         }
 
         private void displayCourses(List<Course> courseList, int numberOfCourses)

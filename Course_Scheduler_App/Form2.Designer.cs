@@ -151,19 +151,19 @@ namespace Course_Scheduler_App
             "Dr. Litman",
             "Dr. Locklair",
             "Dr. Wahl"});
-            this.comboBox1.Location = new System.Drawing.Point(90, 52);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBox1.Location = new System.Drawing.Point(120, 64);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(188, 17);
+            this.comboBox1.Size = new System.Drawing.Size(249, 21);
             this.comboBox1.TabIndex = 33;
             this.comboBox1.Text = "Enter Instructor Name";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(9, 10);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 19);
+            this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 34;
             this.button1.Text = "Back";
             this.button1.UseVisualStyleBackColor = true;
@@ -171,10 +171,10 @@ namespace Course_Scheduler_App
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(719, 417);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Location = new System.Drawing.Point(959, 513);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(116, 36);
+            this.button2.Size = new System.Drawing.Size(155, 44);
             this.button2.TabIndex = 35;
             this.button2.Text = "Check for Conflicts";
             this.button2.UseVisualStyleBackColor = true;
@@ -190,9 +190,11 @@ namespace Course_Scheduler_App
             this.groupBox7.Controls.Add(this.groupBox3);
             this.groupBox7.Controls.Add(this.groupBox2);
             this.groupBox7.Controls.Add(this.groupBox1);
-            this.groupBox7.Location = new System.Drawing.Point(44, 74);
+            this.groupBox7.Location = new System.Drawing.Point(59, 91);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(640, 468);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox7.Size = new System.Drawing.Size(853, 576);
             this.groupBox7.TabIndex = 59;
             this.groupBox7.TabStop = false;
             // 
@@ -209,11 +211,11 @@ namespace Course_Scheduler_App
             this.groupBox9.Controls.Add(this.Cinstr8);
             this.groupBox9.Controls.Add(this.Cno8);
             this.groupBox9.Controls.Add(this.label72);
-            this.groupBox9.Location = new System.Drawing.Point(5, 403);
-            this.groupBox9.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox9.Location = new System.Drawing.Point(7, 496);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox9.Size = new System.Drawing.Size(562, 51);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox9.Size = new System.Drawing.Size(749, 63);
             this.groupBox9.TabIndex = 62;
             this.groupBox9.TabStop = false;
             this.groupBox9.Visible = false;
@@ -221,100 +223,91 @@ namespace Course_Scheduler_App
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(5, 21);
-            this.checkBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox8.Location = new System.Drawing.Point(7, 26);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(15, 14);
+            this.checkBox8.Size = new System.Drawing.Size(18, 17);
             this.checkBox8.TabIndex = 56;
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
             // Csubj8
             // 
             this.Csubj8.AutoSize = true;
-            this.Csubj8.Location = new System.Drawing.Point(56, 17);
-            this.Csubj8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj8.Location = new System.Drawing.Point(75, 21);
             this.Csubj8.Name = "Csubj8";
-            this.Csubj8.Size = new System.Drawing.Size(35, 13);
+            this.Csubj8.Size = new System.Drawing.Size(46, 17);
             this.Csubj8.TabIndex = 54;
             this.Csubj8.Text = "label3";
             // 
             // Croom8
             // 
             this.Croom8.AutoSize = true;
-            this.Croom8.Location = new System.Drawing.Point(506, 17);
-            this.Croom8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom8.Location = new System.Drawing.Point(675, 21);
             this.Croom8.Name = "Croom8";
-            this.Croom8.Size = new System.Drawing.Size(35, 13);
+            this.Croom8.Size = new System.Drawing.Size(46, 17);
             this.Croom8.TabIndex = 53;
             this.Croom8.Text = "label9";
             // 
             // Cbuild8
             // 
             this.Cbuild8.AutoSize = true;
-            this.Cbuild8.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild8.Location = new System.Drawing.Point(585, 21);
             this.Cbuild8.Name = "Cbuild8";
-            this.Cbuild8.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild8.Size = new System.Drawing.Size(46, 17);
             this.Cbuild8.TabIndex = 52;
             this.Cbuild8.Text = "label8";
             // 
             // Cend8
             // 
             this.Cend8.AutoSize = true;
-            this.Cend8.Location = new System.Drawing.Point(369, 17);
-            this.Cend8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend8.Location = new System.Drawing.Point(492, 21);
             this.Cend8.Name = "Cend8";
-            this.Cend8.Size = new System.Drawing.Size(35, 13);
+            this.Cend8.Size = new System.Drawing.Size(46, 17);
             this.Cend8.TabIndex = 51;
             this.Cend8.Text = "label7";
             // 
             // Cstart8
             // 
             this.Cstart8.AutoSize = true;
-            this.Cstart8.Location = new System.Drawing.Point(302, 17);
-            this.Cstart8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart8.Location = new System.Drawing.Point(403, 21);
             this.Cstart8.Name = "Cstart8";
-            this.Cstart8.Size = new System.Drawing.Size(35, 13);
+            this.Cstart8.Size = new System.Drawing.Size(46, 17);
             this.Cstart8.TabIndex = 50;
             this.Cstart8.Text = "label6";
             // 
             // Cday8
             // 
             this.Cday8.AutoSize = true;
-            this.Cday8.Location = new System.Drawing.Point(242, 19);
-            this.Cday8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday8.Location = new System.Drawing.Point(323, 23);
             this.Cday8.Name = "Cday8";
-            this.Cday8.Size = new System.Drawing.Size(35, 13);
+            this.Cday8.Size = new System.Drawing.Size(46, 17);
             this.Cday8.TabIndex = 49;
             this.Cday8.Text = "label5";
             // 
             // Cinstr8
             // 
             this.Cinstr8.AutoSize = true;
-            this.Cinstr8.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr8.Location = new System.Drawing.Point(245, 23);
             this.Cinstr8.Name = "Cinstr8";
-            this.Cinstr8.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr8.Size = new System.Drawing.Size(46, 17);
             this.Cinstr8.TabIndex = 48;
             this.Cinstr8.Text = "label4";
             // 
             // Cno8
             // 
             this.Cno8.AutoSize = true;
-            this.Cno8.Location = new System.Drawing.Point(120, 17);
-            this.Cno8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno8.Location = new System.Drawing.Point(160, 21);
             this.Cno8.Name = "Cno8";
-            this.Cno8.Size = new System.Drawing.Size(35, 13);
+            this.Cno8.Size = new System.Drawing.Size(46, 17);
             this.Cno8.TabIndex = 47;
             this.Cno8.Text = "label3";
             // 
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(39, 17);
-            this.label72.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label72.Location = new System.Drawing.Point(52, 21);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(0, 13);
+            this.label72.Size = new System.Drawing.Size(0, 17);
             this.label72.TabIndex = 46;
             // 
             // groupBox8
@@ -330,11 +323,11 @@ namespace Course_Scheduler_App
             this.groupBox8.Controls.Add(this.Cinstr7);
             this.groupBox8.Controls.Add(this.Cno7);
             this.groupBox8.Controls.Add(this.label63);
-            this.groupBox8.Location = new System.Drawing.Point(5, 348);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox8.Location = new System.Drawing.Point(7, 428);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox8.Size = new System.Drawing.Size(562, 51);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox8.Size = new System.Drawing.Size(749, 63);
             this.groupBox8.TabIndex = 61;
             this.groupBox8.TabStop = false;
             this.groupBox8.Visible = false;
@@ -342,100 +335,91 @@ namespace Course_Scheduler_App
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(5, 20);
-            this.checkBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox7.Location = new System.Drawing.Point(7, 25);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(15, 14);
+            this.checkBox7.Size = new System.Drawing.Size(18, 17);
             this.checkBox7.TabIndex = 56;
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // Csubj7
             // 
             this.Csubj7.AutoSize = true;
-            this.Csubj7.Location = new System.Drawing.Point(56, 17);
-            this.Csubj7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj7.Location = new System.Drawing.Point(75, 21);
             this.Csubj7.Name = "Csubj7";
-            this.Csubj7.Size = new System.Drawing.Size(35, 13);
+            this.Csubj7.Size = new System.Drawing.Size(46, 17);
             this.Csubj7.TabIndex = 54;
             this.Csubj7.Text = "label3";
             // 
             // Croom7
             // 
             this.Croom7.AutoSize = true;
-            this.Croom7.Location = new System.Drawing.Point(506, 17);
-            this.Croom7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom7.Location = new System.Drawing.Point(675, 21);
             this.Croom7.Name = "Croom7";
-            this.Croom7.Size = new System.Drawing.Size(35, 13);
+            this.Croom7.Size = new System.Drawing.Size(46, 17);
             this.Croom7.TabIndex = 53;
             this.Croom7.Text = "label9";
             // 
             // Cbuild7
             // 
             this.Cbuild7.AutoSize = true;
-            this.Cbuild7.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild7.Location = new System.Drawing.Point(585, 21);
             this.Cbuild7.Name = "Cbuild7";
-            this.Cbuild7.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild7.Size = new System.Drawing.Size(46, 17);
             this.Cbuild7.TabIndex = 52;
             this.Cbuild7.Text = "label8";
             // 
             // Cend7
             // 
             this.Cend7.AutoSize = true;
-            this.Cend7.Location = new System.Drawing.Point(369, 17);
-            this.Cend7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend7.Location = new System.Drawing.Point(492, 21);
             this.Cend7.Name = "Cend7";
-            this.Cend7.Size = new System.Drawing.Size(35, 13);
+            this.Cend7.Size = new System.Drawing.Size(46, 17);
             this.Cend7.TabIndex = 51;
             this.Cend7.Text = "label7";
             // 
             // Cstart7
             // 
             this.Cstart7.AutoSize = true;
-            this.Cstart7.Location = new System.Drawing.Point(302, 17);
-            this.Cstart7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart7.Location = new System.Drawing.Point(403, 21);
             this.Cstart7.Name = "Cstart7";
-            this.Cstart7.Size = new System.Drawing.Size(35, 13);
+            this.Cstart7.Size = new System.Drawing.Size(46, 17);
             this.Cstart7.TabIndex = 50;
             this.Cstart7.Text = "label6";
             // 
             // Cday7
             // 
             this.Cday7.AutoSize = true;
-            this.Cday7.Location = new System.Drawing.Point(242, 19);
-            this.Cday7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday7.Location = new System.Drawing.Point(323, 23);
             this.Cday7.Name = "Cday7";
-            this.Cday7.Size = new System.Drawing.Size(35, 13);
+            this.Cday7.Size = new System.Drawing.Size(46, 17);
             this.Cday7.TabIndex = 49;
             this.Cday7.Text = "label5";
             // 
             // Cinstr7
             // 
             this.Cinstr7.AutoSize = true;
-            this.Cinstr7.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr7.Location = new System.Drawing.Point(245, 23);
             this.Cinstr7.Name = "Cinstr7";
-            this.Cinstr7.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr7.Size = new System.Drawing.Size(46, 17);
             this.Cinstr7.TabIndex = 48;
             this.Cinstr7.Text = "label4";
             // 
             // Cno7
             // 
             this.Cno7.AutoSize = true;
-            this.Cno7.Location = new System.Drawing.Point(120, 17);
-            this.Cno7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno7.Location = new System.Drawing.Point(160, 21);
             this.Cno7.Name = "Cno7";
-            this.Cno7.Size = new System.Drawing.Size(35, 13);
+            this.Cno7.Size = new System.Drawing.Size(46, 17);
             this.Cno7.TabIndex = 47;
             this.Cno7.Text = "label3";
             // 
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(39, 17);
-            this.label63.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label63.Location = new System.Drawing.Point(52, 21);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(0, 13);
+            this.label63.Size = new System.Drawing.Size(0, 17);
             this.label63.TabIndex = 46;
             // 
             // groupBox6
@@ -451,11 +435,11 @@ namespace Course_Scheduler_App
             this.groupBox6.Controls.Add(this.Cinstr6);
             this.groupBox6.Controls.Add(this.Cno6);
             this.groupBox6.Controls.Add(this.label54);
-            this.groupBox6.Location = new System.Drawing.Point(5, 293);
-            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Location = new System.Drawing.Point(7, 361);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox6.Size = new System.Drawing.Size(562, 51);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox6.Size = new System.Drawing.Size(749, 63);
             this.groupBox6.TabIndex = 57;
             this.groupBox6.TabStop = false;
             this.groupBox6.Visible = false;
@@ -463,100 +447,91 @@ namespace Course_Scheduler_App
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(5, 18);
-            this.checkBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox6.Location = new System.Drawing.Point(7, 22);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(15, 14);
+            this.checkBox6.Size = new System.Drawing.Size(18, 17);
             this.checkBox6.TabIndex = 56;
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
             // Csubj6
             // 
             this.Csubj6.AutoSize = true;
-            this.Csubj6.Location = new System.Drawing.Point(56, 17);
-            this.Csubj6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj6.Location = new System.Drawing.Point(75, 21);
             this.Csubj6.Name = "Csubj6";
-            this.Csubj6.Size = new System.Drawing.Size(35, 13);
+            this.Csubj6.Size = new System.Drawing.Size(46, 17);
             this.Csubj6.TabIndex = 54;
             this.Csubj6.Text = "label3";
             // 
             // Croom6
             // 
             this.Croom6.AutoSize = true;
-            this.Croom6.Location = new System.Drawing.Point(506, 17);
-            this.Croom6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom6.Location = new System.Drawing.Point(675, 21);
             this.Croom6.Name = "Croom6";
-            this.Croom6.Size = new System.Drawing.Size(35, 13);
+            this.Croom6.Size = new System.Drawing.Size(46, 17);
             this.Croom6.TabIndex = 53;
             this.Croom6.Text = "label9";
             // 
             // Cbuild6
             // 
             this.Cbuild6.AutoSize = true;
-            this.Cbuild6.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild6.Location = new System.Drawing.Point(585, 21);
             this.Cbuild6.Name = "Cbuild6";
-            this.Cbuild6.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild6.Size = new System.Drawing.Size(46, 17);
             this.Cbuild6.TabIndex = 52;
             this.Cbuild6.Text = "label8";
             // 
             // Cend6
             // 
             this.Cend6.AutoSize = true;
-            this.Cend6.Location = new System.Drawing.Point(369, 17);
-            this.Cend6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend6.Location = new System.Drawing.Point(492, 21);
             this.Cend6.Name = "Cend6";
-            this.Cend6.Size = new System.Drawing.Size(35, 13);
+            this.Cend6.Size = new System.Drawing.Size(46, 17);
             this.Cend6.TabIndex = 51;
             this.Cend6.Text = "label7";
             // 
             // Cstart6
             // 
             this.Cstart6.AutoSize = true;
-            this.Cstart6.Location = new System.Drawing.Point(302, 17);
-            this.Cstart6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart6.Location = new System.Drawing.Point(403, 21);
             this.Cstart6.Name = "Cstart6";
-            this.Cstart6.Size = new System.Drawing.Size(35, 13);
+            this.Cstart6.Size = new System.Drawing.Size(46, 17);
             this.Cstart6.TabIndex = 50;
             this.Cstart6.Text = "label6";
             // 
             // Cday6
             // 
             this.Cday6.AutoSize = true;
-            this.Cday6.Location = new System.Drawing.Point(242, 19);
-            this.Cday6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday6.Location = new System.Drawing.Point(323, 23);
             this.Cday6.Name = "Cday6";
-            this.Cday6.Size = new System.Drawing.Size(35, 13);
+            this.Cday6.Size = new System.Drawing.Size(46, 17);
             this.Cday6.TabIndex = 49;
             this.Cday6.Text = "label5";
             // 
             // Cinstr6
             // 
             this.Cinstr6.AutoSize = true;
-            this.Cinstr6.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr6.Location = new System.Drawing.Point(245, 23);
             this.Cinstr6.Name = "Cinstr6";
-            this.Cinstr6.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr6.Size = new System.Drawing.Size(46, 17);
             this.Cinstr6.TabIndex = 48;
             this.Cinstr6.Text = "label4";
             // 
             // Cno6
             // 
             this.Cno6.AutoSize = true;
-            this.Cno6.Location = new System.Drawing.Point(120, 17);
-            this.Cno6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno6.Location = new System.Drawing.Point(160, 21);
             this.Cno6.Name = "Cno6";
-            this.Cno6.Size = new System.Drawing.Size(35, 13);
+            this.Cno6.Size = new System.Drawing.Size(46, 17);
             this.Cno6.TabIndex = 47;
             this.Cno6.Text = "label3";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(39, 17);
-            this.label54.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label54.Location = new System.Drawing.Point(52, 21);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(0, 13);
+            this.label54.Size = new System.Drawing.Size(0, 17);
             this.label54.TabIndex = 46;
             // 
             // groupBox5
@@ -572,11 +547,11 @@ namespace Course_Scheduler_App
             this.groupBox5.Controls.Add(this.Cinstr5);
             this.groupBox5.Controls.Add(this.Cno5);
             this.groupBox5.Controls.Add(this.label45);
-            this.groupBox5.Location = new System.Drawing.Point(5, 238);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox5.Location = new System.Drawing.Point(7, 293);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox5.Size = new System.Drawing.Size(562, 51);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox5.Size = new System.Drawing.Size(749, 63);
             this.groupBox5.TabIndex = 60;
             this.groupBox5.TabStop = false;
             this.groupBox5.Visible = false;
@@ -584,100 +559,91 @@ namespace Course_Scheduler_App
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(5, 20);
-            this.checkBox5.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox5.Location = new System.Drawing.Point(7, 25);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(15, 14);
+            this.checkBox5.Size = new System.Drawing.Size(18, 17);
             this.checkBox5.TabIndex = 56;
             this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // Csubj5
             // 
             this.Csubj5.AutoSize = true;
-            this.Csubj5.Location = new System.Drawing.Point(56, 17);
-            this.Csubj5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj5.Location = new System.Drawing.Point(75, 21);
             this.Csubj5.Name = "Csubj5";
-            this.Csubj5.Size = new System.Drawing.Size(35, 13);
+            this.Csubj5.Size = new System.Drawing.Size(46, 17);
             this.Csubj5.TabIndex = 54;
             this.Csubj5.Text = "label3";
             // 
             // Croom5
             // 
             this.Croom5.AutoSize = true;
-            this.Croom5.Location = new System.Drawing.Point(506, 17);
-            this.Croom5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom5.Location = new System.Drawing.Point(675, 21);
             this.Croom5.Name = "Croom5";
-            this.Croom5.Size = new System.Drawing.Size(35, 13);
+            this.Croom5.Size = new System.Drawing.Size(46, 17);
             this.Croom5.TabIndex = 53;
             this.Croom5.Text = "label9";
             // 
             // Cbuild5
             // 
             this.Cbuild5.AutoSize = true;
-            this.Cbuild5.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild5.Location = new System.Drawing.Point(585, 21);
             this.Cbuild5.Name = "Cbuild5";
-            this.Cbuild5.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild5.Size = new System.Drawing.Size(46, 17);
             this.Cbuild5.TabIndex = 52;
             this.Cbuild5.Text = "label8";
             // 
             // Cend5
             // 
             this.Cend5.AutoSize = true;
-            this.Cend5.Location = new System.Drawing.Point(369, 17);
-            this.Cend5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend5.Location = new System.Drawing.Point(492, 21);
             this.Cend5.Name = "Cend5";
-            this.Cend5.Size = new System.Drawing.Size(35, 13);
+            this.Cend5.Size = new System.Drawing.Size(46, 17);
             this.Cend5.TabIndex = 51;
             this.Cend5.Text = "label7";
             // 
             // Cstart5
             // 
             this.Cstart5.AutoSize = true;
-            this.Cstart5.Location = new System.Drawing.Point(302, 17);
-            this.Cstart5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart5.Location = new System.Drawing.Point(403, 21);
             this.Cstart5.Name = "Cstart5";
-            this.Cstart5.Size = new System.Drawing.Size(35, 13);
+            this.Cstart5.Size = new System.Drawing.Size(46, 17);
             this.Cstart5.TabIndex = 50;
             this.Cstart5.Text = "label6";
             // 
             // Cday5
             // 
             this.Cday5.AutoSize = true;
-            this.Cday5.Location = new System.Drawing.Point(242, 19);
-            this.Cday5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday5.Location = new System.Drawing.Point(323, 23);
             this.Cday5.Name = "Cday5";
-            this.Cday5.Size = new System.Drawing.Size(35, 13);
+            this.Cday5.Size = new System.Drawing.Size(46, 17);
             this.Cday5.TabIndex = 49;
             this.Cday5.Text = "label5";
             // 
             // Cinstr5
             // 
             this.Cinstr5.AutoSize = true;
-            this.Cinstr5.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr5.Location = new System.Drawing.Point(245, 23);
             this.Cinstr5.Name = "Cinstr5";
-            this.Cinstr5.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr5.Size = new System.Drawing.Size(46, 17);
             this.Cinstr5.TabIndex = 48;
             this.Cinstr5.Text = "label4";
             // 
             // Cno5
             // 
             this.Cno5.AutoSize = true;
-            this.Cno5.Location = new System.Drawing.Point(120, 17);
-            this.Cno5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno5.Location = new System.Drawing.Point(160, 21);
             this.Cno5.Name = "Cno5";
-            this.Cno5.Size = new System.Drawing.Size(35, 13);
+            this.Cno5.Size = new System.Drawing.Size(46, 17);
             this.Cno5.TabIndex = 47;
             this.Cno5.Text = "label3";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(39, 17);
-            this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label45.Location = new System.Drawing.Point(52, 21);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(0, 13);
+            this.label45.Size = new System.Drawing.Size(0, 17);
             this.label45.TabIndex = 46;
             // 
             // groupBox4
@@ -693,11 +659,11 @@ namespace Course_Scheduler_App
             this.groupBox4.Controls.Add(this.Cinstr4);
             this.groupBox4.Controls.Add(this.Cno4);
             this.groupBox4.Controls.Add(this.label28);
-            this.groupBox4.Location = new System.Drawing.Point(5, 183);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Location = new System.Drawing.Point(7, 225);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox4.Size = new System.Drawing.Size(562, 51);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox4.Size = new System.Drawing.Size(749, 63);
             this.groupBox4.TabIndex = 59;
             this.groupBox4.TabStop = false;
             this.groupBox4.Visible = false;
@@ -705,100 +671,91 @@ namespace Course_Scheduler_App
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(5, 20);
-            this.checkBox4.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox4.Location = new System.Drawing.Point(7, 25);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(15, 14);
+            this.checkBox4.Size = new System.Drawing.Size(18, 17);
             this.checkBox4.TabIndex = 56;
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // Csubj4
             // 
             this.Csubj4.AutoSize = true;
-            this.Csubj4.Location = new System.Drawing.Point(56, 17);
-            this.Csubj4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj4.Location = new System.Drawing.Point(75, 21);
             this.Csubj4.Name = "Csubj4";
-            this.Csubj4.Size = new System.Drawing.Size(35, 13);
+            this.Csubj4.Size = new System.Drawing.Size(46, 17);
             this.Csubj4.TabIndex = 54;
             this.Csubj4.Text = "label3";
             // 
             // Croom4
             // 
             this.Croom4.AutoSize = true;
-            this.Croom4.Location = new System.Drawing.Point(506, 17);
-            this.Croom4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom4.Location = new System.Drawing.Point(675, 21);
             this.Croom4.Name = "Croom4";
-            this.Croom4.Size = new System.Drawing.Size(35, 13);
+            this.Croom4.Size = new System.Drawing.Size(46, 17);
             this.Croom4.TabIndex = 53;
             this.Croom4.Text = "label9";
             // 
             // Cbuild4
             // 
             this.Cbuild4.AutoSize = true;
-            this.Cbuild4.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild4.Location = new System.Drawing.Point(585, 21);
             this.Cbuild4.Name = "Cbuild4";
-            this.Cbuild4.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild4.Size = new System.Drawing.Size(46, 17);
             this.Cbuild4.TabIndex = 52;
             this.Cbuild4.Text = "label8";
             // 
             // Cend4
             // 
             this.Cend4.AutoSize = true;
-            this.Cend4.Location = new System.Drawing.Point(369, 17);
-            this.Cend4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend4.Location = new System.Drawing.Point(492, 21);
             this.Cend4.Name = "Cend4";
-            this.Cend4.Size = new System.Drawing.Size(35, 13);
+            this.Cend4.Size = new System.Drawing.Size(46, 17);
             this.Cend4.TabIndex = 51;
             this.Cend4.Text = "label7";
             // 
             // Cstart4
             // 
             this.Cstart4.AutoSize = true;
-            this.Cstart4.Location = new System.Drawing.Point(302, 17);
-            this.Cstart4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart4.Location = new System.Drawing.Point(403, 21);
             this.Cstart4.Name = "Cstart4";
-            this.Cstart4.Size = new System.Drawing.Size(35, 13);
+            this.Cstart4.Size = new System.Drawing.Size(46, 17);
             this.Cstart4.TabIndex = 50;
             this.Cstart4.Text = "label6";
             // 
             // Cday4
             // 
             this.Cday4.AutoSize = true;
-            this.Cday4.Location = new System.Drawing.Point(242, 19);
-            this.Cday4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday4.Location = new System.Drawing.Point(323, 23);
             this.Cday4.Name = "Cday4";
-            this.Cday4.Size = new System.Drawing.Size(35, 13);
+            this.Cday4.Size = new System.Drawing.Size(46, 17);
             this.Cday4.TabIndex = 49;
             this.Cday4.Text = "label5";
             // 
             // Cinstr4
             // 
             this.Cinstr4.AutoSize = true;
-            this.Cinstr4.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr4.Location = new System.Drawing.Point(245, 23);
             this.Cinstr4.Name = "Cinstr4";
-            this.Cinstr4.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr4.Size = new System.Drawing.Size(46, 17);
             this.Cinstr4.TabIndex = 48;
             this.Cinstr4.Text = "label4";
             // 
             // Cno4
             // 
             this.Cno4.AutoSize = true;
-            this.Cno4.Location = new System.Drawing.Point(120, 17);
-            this.Cno4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno4.Location = new System.Drawing.Point(160, 21);
             this.Cno4.Name = "Cno4";
-            this.Cno4.Size = new System.Drawing.Size(35, 13);
+            this.Cno4.Size = new System.Drawing.Size(46, 17);
             this.Cno4.TabIndex = 47;
             this.Cno4.Text = "label3";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(39, 17);
-            this.label28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label28.Location = new System.Drawing.Point(52, 21);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(0, 13);
+            this.label28.Size = new System.Drawing.Size(0, 17);
             this.label28.TabIndex = 46;
             // 
             // groupBox3
@@ -814,11 +771,11 @@ namespace Course_Scheduler_App
             this.groupBox3.Controls.Add(this.Cinstr3);
             this.groupBox3.Controls.Add(this.Cno3);
             this.groupBox3.Controls.Add(this.label19);
-            this.groupBox3.Location = new System.Drawing.Point(5, 128);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Location = new System.Drawing.Point(7, 158);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox3.Size = new System.Drawing.Size(562, 51);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(749, 63);
             this.groupBox3.TabIndex = 58;
             this.groupBox3.TabStop = false;
             this.groupBox3.Visible = false;
@@ -826,100 +783,91 @@ namespace Course_Scheduler_App
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(5, 20);
-            this.checkBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox3.Location = new System.Drawing.Point(7, 25);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(15, 14);
+            this.checkBox3.Size = new System.Drawing.Size(18, 17);
             this.checkBox3.TabIndex = 56;
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // Csubj3
             // 
             this.Csubj3.AutoSize = true;
-            this.Csubj3.Location = new System.Drawing.Point(56, 17);
-            this.Csubj3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj3.Location = new System.Drawing.Point(75, 21);
             this.Csubj3.Name = "Csubj3";
-            this.Csubj3.Size = new System.Drawing.Size(35, 13);
+            this.Csubj3.Size = new System.Drawing.Size(46, 17);
             this.Csubj3.TabIndex = 54;
             this.Csubj3.Text = "label3";
             // 
             // Croom3
             // 
             this.Croom3.AutoSize = true;
-            this.Croom3.Location = new System.Drawing.Point(506, 17);
-            this.Croom3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom3.Location = new System.Drawing.Point(675, 21);
             this.Croom3.Name = "Croom3";
-            this.Croom3.Size = new System.Drawing.Size(35, 13);
+            this.Croom3.Size = new System.Drawing.Size(46, 17);
             this.Croom3.TabIndex = 53;
             this.Croom3.Text = "label9";
             // 
             // Cbuild3
             // 
             this.Cbuild3.AutoSize = true;
-            this.Cbuild3.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild3.Location = new System.Drawing.Point(585, 21);
             this.Cbuild3.Name = "Cbuild3";
-            this.Cbuild3.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild3.Size = new System.Drawing.Size(46, 17);
             this.Cbuild3.TabIndex = 52;
             this.Cbuild3.Text = "label8";
             // 
             // Cend3
             // 
             this.Cend3.AutoSize = true;
-            this.Cend3.Location = new System.Drawing.Point(369, 17);
-            this.Cend3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend3.Location = new System.Drawing.Point(492, 21);
             this.Cend3.Name = "Cend3";
-            this.Cend3.Size = new System.Drawing.Size(35, 13);
+            this.Cend3.Size = new System.Drawing.Size(46, 17);
             this.Cend3.TabIndex = 51;
             this.Cend3.Text = "label7";
             // 
             // Cstart3
             // 
             this.Cstart3.AutoSize = true;
-            this.Cstart3.Location = new System.Drawing.Point(302, 17);
-            this.Cstart3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart3.Location = new System.Drawing.Point(403, 21);
             this.Cstart3.Name = "Cstart3";
-            this.Cstart3.Size = new System.Drawing.Size(35, 13);
+            this.Cstart3.Size = new System.Drawing.Size(46, 17);
             this.Cstart3.TabIndex = 50;
             this.Cstart3.Text = "label6";
             // 
             // Cday3
             // 
             this.Cday3.AutoSize = true;
-            this.Cday3.Location = new System.Drawing.Point(242, 19);
-            this.Cday3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday3.Location = new System.Drawing.Point(323, 23);
             this.Cday3.Name = "Cday3";
-            this.Cday3.Size = new System.Drawing.Size(35, 13);
+            this.Cday3.Size = new System.Drawing.Size(46, 17);
             this.Cday3.TabIndex = 49;
             this.Cday3.Text = "label5";
             // 
             // Cinstr3
             // 
             this.Cinstr3.AutoSize = true;
-            this.Cinstr3.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr3.Location = new System.Drawing.Point(245, 23);
             this.Cinstr3.Name = "Cinstr3";
-            this.Cinstr3.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr3.Size = new System.Drawing.Size(46, 17);
             this.Cinstr3.TabIndex = 48;
             this.Cinstr3.Text = "label4";
             // 
             // Cno3
             // 
             this.Cno3.AutoSize = true;
-            this.Cno3.Location = new System.Drawing.Point(120, 17);
-            this.Cno3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno3.Location = new System.Drawing.Point(160, 21);
             this.Cno3.Name = "Cno3";
-            this.Cno3.Size = new System.Drawing.Size(35, 13);
+            this.Cno3.Size = new System.Drawing.Size(46, 17);
             this.Cno3.TabIndex = 47;
             this.Cno3.Text = "label3";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(39, 17);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(52, 21);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(0, 13);
+            this.label19.Size = new System.Drawing.Size(0, 17);
             this.label19.TabIndex = 46;
             // 
             // groupBox2
@@ -935,11 +883,11 @@ namespace Course_Scheduler_App
             this.groupBox2.Controls.Add(this.Cinstr2);
             this.groupBox2.Controls.Add(this.Cno2);
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Location = new System.Drawing.Point(5, 73);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Location = new System.Drawing.Point(7, 90);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(562, 51);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(749, 63);
             this.groupBox2.TabIndex = 57;
             this.groupBox2.TabStop = false;
             this.groupBox2.Visible = false;
@@ -947,100 +895,91 @@ namespace Course_Scheduler_App
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(4, 18);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox2.Location = new System.Drawing.Point(5, 22);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.Size = new System.Drawing.Size(18, 17);
             this.checkBox2.TabIndex = 56;
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Csubj2
             // 
             this.Csubj2.AutoSize = true;
-            this.Csubj2.Location = new System.Drawing.Point(56, 17);
-            this.Csubj2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj2.Location = new System.Drawing.Point(75, 21);
             this.Csubj2.Name = "Csubj2";
-            this.Csubj2.Size = new System.Drawing.Size(35, 13);
+            this.Csubj2.Size = new System.Drawing.Size(46, 17);
             this.Csubj2.TabIndex = 54;
             this.Csubj2.Text = "label3";
             // 
             // Croom2
             // 
             this.Croom2.AutoSize = true;
-            this.Croom2.Location = new System.Drawing.Point(506, 17);
-            this.Croom2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom2.Location = new System.Drawing.Point(675, 21);
             this.Croom2.Name = "Croom2";
-            this.Croom2.Size = new System.Drawing.Size(35, 13);
+            this.Croom2.Size = new System.Drawing.Size(46, 17);
             this.Croom2.TabIndex = 53;
             this.Croom2.Text = "label9";
             // 
             // Cbuild2
             // 
             this.Cbuild2.AutoSize = true;
-            this.Cbuild2.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild2.Location = new System.Drawing.Point(585, 21);
             this.Cbuild2.Name = "Cbuild2";
-            this.Cbuild2.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild2.Size = new System.Drawing.Size(46, 17);
             this.Cbuild2.TabIndex = 52;
             this.Cbuild2.Text = "label8";
             // 
             // Cend2
             // 
             this.Cend2.AutoSize = true;
-            this.Cend2.Location = new System.Drawing.Point(369, 17);
-            this.Cend2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend2.Location = new System.Drawing.Point(492, 21);
             this.Cend2.Name = "Cend2";
-            this.Cend2.Size = new System.Drawing.Size(35, 13);
+            this.Cend2.Size = new System.Drawing.Size(46, 17);
             this.Cend2.TabIndex = 51;
             this.Cend2.Text = "label7";
             // 
             // Cstart2
             // 
             this.Cstart2.AutoSize = true;
-            this.Cstart2.Location = new System.Drawing.Point(302, 17);
-            this.Cstart2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart2.Location = new System.Drawing.Point(403, 21);
             this.Cstart2.Name = "Cstart2";
-            this.Cstart2.Size = new System.Drawing.Size(35, 13);
+            this.Cstart2.Size = new System.Drawing.Size(46, 17);
             this.Cstart2.TabIndex = 50;
             this.Cstart2.Text = "label6";
             // 
             // Cday2
             // 
             this.Cday2.AutoSize = true;
-            this.Cday2.Location = new System.Drawing.Point(242, 19);
-            this.Cday2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday2.Location = new System.Drawing.Point(323, 23);
             this.Cday2.Name = "Cday2";
-            this.Cday2.Size = new System.Drawing.Size(35, 13);
+            this.Cday2.Size = new System.Drawing.Size(46, 17);
             this.Cday2.TabIndex = 49;
             this.Cday2.Text = "label5";
             // 
             // Cinstr2
             // 
             this.Cinstr2.AutoSize = true;
-            this.Cinstr2.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr2.Location = new System.Drawing.Point(245, 23);
             this.Cinstr2.Name = "Cinstr2";
-            this.Cinstr2.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr2.Size = new System.Drawing.Size(46, 17);
             this.Cinstr2.TabIndex = 48;
             this.Cinstr2.Text = "label4";
             // 
             // Cno2
             // 
             this.Cno2.AutoSize = true;
-            this.Cno2.Location = new System.Drawing.Point(120, 17);
-            this.Cno2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno2.Location = new System.Drawing.Point(160, 21);
             this.Cno2.Name = "Cno2";
-            this.Cno2.Size = new System.Drawing.Size(35, 13);
+            this.Cno2.Size = new System.Drawing.Size(46, 17);
             this.Cno2.TabIndex = 47;
             this.Cno2.Text = "label3";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(39, 17);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(52, 21);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(0, 13);
+            this.label10.Size = new System.Drawing.Size(0, 17);
             this.label10.TabIndex = 46;
             // 
             // groupBox1
@@ -1056,11 +995,11 @@ namespace Course_Scheduler_App
             this.groupBox1.Controls.Add(this.Cinstr1);
             this.groupBox1.Controls.Add(this.Cno1);
             this.groupBox1.Controls.Add(this.subj1);
-            this.groupBox1.Location = new System.Drawing.Point(5, 18);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Location = new System.Drawing.Point(7, 22);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(562, 51);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(749, 63);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
@@ -1068,100 +1007,91 @@ namespace Course_Scheduler_App
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(5, 18);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.checkBox1.Location = new System.Drawing.Point(7, 22);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
             this.checkBox1.TabIndex = 55;
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // Csubj1
             // 
             this.Csubj1.AutoSize = true;
-            this.Csubj1.Location = new System.Drawing.Point(56, 17);
-            this.Csubj1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Csubj1.Location = new System.Drawing.Point(75, 21);
             this.Csubj1.Name = "Csubj1";
-            this.Csubj1.Size = new System.Drawing.Size(35, 13);
+            this.Csubj1.Size = new System.Drawing.Size(46, 17);
             this.Csubj1.TabIndex = 54;
             this.Csubj1.Text = "label3";
             // 
             // Croom1
             // 
             this.Croom1.AutoSize = true;
-            this.Croom1.Location = new System.Drawing.Point(506, 17);
-            this.Croom1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Croom1.Location = new System.Drawing.Point(675, 21);
             this.Croom1.Name = "Croom1";
-            this.Croom1.Size = new System.Drawing.Size(35, 13);
+            this.Croom1.Size = new System.Drawing.Size(46, 17);
             this.Croom1.TabIndex = 53;
             this.Croom1.Text = "label9";
             // 
             // Cbuild1
             // 
             this.Cbuild1.AutoSize = true;
-            this.Cbuild1.Location = new System.Drawing.Point(439, 17);
-            this.Cbuild1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cbuild1.Location = new System.Drawing.Point(585, 21);
             this.Cbuild1.Name = "Cbuild1";
-            this.Cbuild1.Size = new System.Drawing.Size(35, 13);
+            this.Cbuild1.Size = new System.Drawing.Size(46, 17);
             this.Cbuild1.TabIndex = 52;
             this.Cbuild1.Text = "label8";
             // 
             // Cend1
             // 
             this.Cend1.AutoSize = true;
-            this.Cend1.Location = new System.Drawing.Point(369, 17);
-            this.Cend1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cend1.Location = new System.Drawing.Point(492, 21);
             this.Cend1.Name = "Cend1";
-            this.Cend1.Size = new System.Drawing.Size(35, 13);
+            this.Cend1.Size = new System.Drawing.Size(46, 17);
             this.Cend1.TabIndex = 51;
             this.Cend1.Text = "label7";
             // 
             // Cstart1
             // 
             this.Cstart1.AutoSize = true;
-            this.Cstart1.Location = new System.Drawing.Point(302, 17);
-            this.Cstart1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cstart1.Location = new System.Drawing.Point(403, 21);
             this.Cstart1.Name = "Cstart1";
-            this.Cstart1.Size = new System.Drawing.Size(35, 13);
+            this.Cstart1.Size = new System.Drawing.Size(46, 17);
             this.Cstart1.TabIndex = 50;
             this.Cstart1.Text = "label6";
             // 
             // Cday1
             // 
             this.Cday1.AutoSize = true;
-            this.Cday1.Location = new System.Drawing.Point(242, 19);
-            this.Cday1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cday1.Location = new System.Drawing.Point(323, 23);
             this.Cday1.Name = "Cday1";
-            this.Cday1.Size = new System.Drawing.Size(35, 13);
+            this.Cday1.Size = new System.Drawing.Size(46, 17);
             this.Cday1.TabIndex = 49;
             this.Cday1.Text = "label5";
             // 
             // Cinstr1
             // 
             this.Cinstr1.AutoSize = true;
-            this.Cinstr1.Location = new System.Drawing.Point(184, 19);
-            this.Cinstr1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cinstr1.Location = new System.Drawing.Point(245, 23);
             this.Cinstr1.Name = "Cinstr1";
-            this.Cinstr1.Size = new System.Drawing.Size(35, 13);
+            this.Cinstr1.Size = new System.Drawing.Size(46, 17);
             this.Cinstr1.TabIndex = 48;
             this.Cinstr1.Text = "label4";
             // 
             // Cno1
             // 
             this.Cno1.AutoSize = true;
-            this.Cno1.Location = new System.Drawing.Point(120, 17);
-            this.Cno1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Cno1.Location = new System.Drawing.Point(160, 21);
             this.Cno1.Name = "Cno1";
-            this.Cno1.Size = new System.Drawing.Size(35, 13);
+            this.Cno1.Size = new System.Drawing.Size(46, 17);
             this.Cno1.TabIndex = 47;
             this.Cno1.Text = "label3";
             // 
             // subj1
             // 
             this.subj1.AutoSize = true;
-            this.subj1.Location = new System.Drawing.Point(39, 17);
-            this.subj1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.subj1.Location = new System.Drawing.Point(52, 21);
             this.subj1.Name = "subj1";
-            this.subj1.Size = new System.Drawing.Size(0, 13);
+            this.subj1.Size = new System.Drawing.Size(0, 17);
             this.subj1.TabIndex = 46;
             // 
             // groupBox10
@@ -1187,7 +1117,7 @@ namespace Course_Scheduler_App
             this.label33.Location = new System.Drawing.Point(473, 17);
             this.label33.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(41, 13);
+            this.label33.Size = new System.Drawing.Size(54, 17);
             this.label33.TabIndex = 53;
             this.label33.Text = "label26";
             // 
@@ -1197,7 +1127,7 @@ namespace Course_Scheduler_App
             this.label34.Location = new System.Drawing.Point(414, 17);
             this.label34.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(41, 13);
+            this.label34.Size = new System.Drawing.Size(54, 17);
             this.label34.TabIndex = 52;
             this.label34.Text = "label27";
             // 
@@ -1207,7 +1137,7 @@ namespace Course_Scheduler_App
             this.label35.Location = new System.Drawing.Point(345, 17);
             this.label35.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(41, 13);
+            this.label35.Size = new System.Drawing.Size(54, 17);
             this.label35.TabIndex = 51;
             this.label35.Text = "label28";
             // 
@@ -1217,7 +1147,7 @@ namespace Course_Scheduler_App
             this.label36.Location = new System.Drawing.Point(275, 16);
             this.label36.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(41, 13);
+            this.label36.Size = new System.Drawing.Size(54, 17);
             this.label36.TabIndex = 50;
             this.label36.Text = "label29";
             // 
@@ -1227,7 +1157,7 @@ namespace Course_Scheduler_App
             this.label37.Location = new System.Drawing.Point(215, 17);
             this.label37.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(41, 13);
+            this.label37.Size = new System.Drawing.Size(54, 17);
             this.label37.TabIndex = 49;
             this.label37.Text = "label30";
             // 
@@ -1237,7 +1167,7 @@ namespace Course_Scheduler_App
             this.label38.Location = new System.Drawing.Point(155, 17);
             this.label38.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(41, 13);
+            this.label38.Size = new System.Drawing.Size(54, 17);
             this.label38.TabIndex = 48;
             this.label38.Text = "label31";
             // 
@@ -1247,7 +1177,7 @@ namespace Course_Scheduler_App
             this.label39.Location = new System.Drawing.Point(96, 17);
             this.label39.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(41, 13);
+            this.label39.Size = new System.Drawing.Size(54, 17);
             this.label39.TabIndex = 47;
             this.label39.Text = "label32";
             // 
@@ -1257,7 +1187,7 @@ namespace Course_Scheduler_App
             this.label40.Location = new System.Drawing.Point(39, 17);
             this.label40.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(41, 13);
+            this.label40.Size = new System.Drawing.Size(54, 17);
             this.label40.TabIndex = 46;
             this.label40.Text = "label33";
             // 
@@ -1267,21 +1197,21 @@ namespace Course_Scheduler_App
             this.checkBox9.Location = new System.Drawing.Point(0, 17);
             this.checkBox9.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(15, 14);
+            this.checkBox9.Size = new System.Drawing.Size(18, 17);
             this.checkBox9.TabIndex = 45;
             this.checkBox9.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(919, 591);
+            this.ClientSize = new System.Drawing.Size(1225, 727);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
