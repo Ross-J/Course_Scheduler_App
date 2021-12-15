@@ -431,7 +431,10 @@ namespace Course_Scheduler_App
                     {
                         if (c2.StartTime == c.StartTime)
                         {
-                            isConflicts = true;
+                            if(c2.Days == c2.Days)
+                            {
+                                isConflicts = true;
+                            }                            
                         }
                     }
                 }
@@ -442,7 +445,19 @@ namespace Course_Scheduler_App
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            bool conflicts = checkForStudentConflicts();
+            if (conflicts == true)
+            {
+                label1.Visible = true;
+                label1.ForeColor = System.Drawing.Color.Red;
+                label1.Text = "Conflicts exist in the student schedule.";
+            }
+            else
+            {
+                label1.Visible = true;
+                label1.ForeColor = System.Drawing.Color.Green;
+                label1.Text = "No conflicts exist in the student schedule.";
+            }
         }
     }
 }

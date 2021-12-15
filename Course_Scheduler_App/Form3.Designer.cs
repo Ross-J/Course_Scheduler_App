@@ -236,6 +236,7 @@ namespace Course_Scheduler_App
             this.label144 = new System.Windows.Forms.Label();
             this.addCourseButton = new System.Windows.Forms.Button();
             this.removeCourseButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox17.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -2392,11 +2393,22 @@ namespace Course_Scheduler_App
             this.removeCourseButton.UseVisualStyleBackColor = true;
             this.removeCourseButton.Click += new System.EventHandler(this.removeCourseButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(1691, 139);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 17);
+            this.label1.TabIndex = 67;
+            this.label1.Text = "label1";
+            this.label1.Visible = false;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1831, 870);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.removeCourseButton);
             this.Controls.Add(this.addCourseButton);
             this.Controls.Add(this.groupBox16);
@@ -2465,6 +2477,7 @@ namespace Course_Scheduler_App
             this.groupBox16.ResumeLayout(false);
             this.groupBox16.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -2677,5 +2690,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.CheckBox checkBox14;
         private System.Windows.Forms.CheckBox checkBox15;
         private System.Windows.Forms.CheckBox checkBox17;
+        private System.Windows.Forms.Label label1;
     }
 }
