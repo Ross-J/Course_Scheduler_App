@@ -277,7 +277,7 @@ namespace Course_Scheduler_App
             }
             //displayCourses(listOfCoursesWithInstructor, numberOfInstructorCourses);
         }
-
+        
         private void groupBox11_Enter(object sender, EventArgs e)
         {
 
