@@ -238,11 +238,6 @@ namespace Course_Scheduler_App
         room1.Text = room;*/
 
 
-        private bool checkForInstructorConflicts()
-        {
-            bool isConflicts = false;
-            return isConflicts;
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -294,8 +289,36 @@ namespace Course_Scheduler_App
 
         }
 
+        /*
+        private bool checkForInstructorConflicts()
+        {
+           
+            bool isConflicts = false;
+
+            foreach (Course c in listOfCoursesWithInstructor)
+            {
+                foreach (Course c2 in listOfCoursesWithInstructor)
+                {
+                    if (c2 != c)
+                    {
+                        if (c2.startTime == c.startTime)
+                        {
+                            if (c2.Days == c2.Days)
+                            {
+                                isConflicts = true;
+                            }
+                        }
+                    }
+                }
+            }
+
+            return isConflicts;
+        }
+        */
+
         private void button2_Click(object sender, EventArgs e)
         {
+
         }
     }
 }
