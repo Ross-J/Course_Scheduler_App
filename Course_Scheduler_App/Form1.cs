@@ -24,6 +24,21 @@ namespace Course_Scheduler_App
             //parseData("CSC,370,Locklair,MWF,1:10,2:25,Stuenkel,118B");
         }
 
+        private bool ButtonRestrictor()
+        {
+            bool Restrictor = true;
+            if (fileContent == "")
+            {
+                Restrictor = true;
+            }
+            else
+            {
+                Restrictor = false;
+               
+              
+            }
+
+        }
         
         private void parseData(string s)
         {
