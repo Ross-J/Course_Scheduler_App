@@ -29,11 +29,11 @@ namespace Course_Scheduler_App
             
             if (fileContent == "")
             {
-                Restrictor = true;
+                return true;
             }
             else
             {
-                Restrictor = false;
+                return false;
                
               
             }
