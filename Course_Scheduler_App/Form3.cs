@@ -419,12 +419,30 @@ namespace Course_Scheduler_App
             numberOfStudentCourses--;
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private bool checkForStudentConflicts()
         {
+            bool isConflicts = false;
+
             foreach (Course c in listOfStudentCourses)
             {
-
+                foreach (Course c2 in listOfStudentCourses)
+                {
+                    if (c2 != c)
+                    {
+                        if (c2.StartTime == c.StartTime)
+                        {
+                            isConflicts = true;
+                        }
+                    }
+                }
             }
+
+            return isConflicts;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
