@@ -162,7 +162,6 @@ namespace Course_Scheduler_App
             this.comboBox15 = new System.Windows.Forms.ComboBox();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.addButton2 = new System.Windows.Forms.Button();
             this.Csubj2 = new System.Windows.Forms.Label();
             this.Croom2 = new System.Windows.Forms.Label();
             this.Cbuild2 = new System.Windows.Forms.Label();
@@ -235,6 +234,7 @@ namespace Course_Scheduler_App
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.addButton2 = new System.Windows.Forms.Button();
             this.groupBox17.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -1648,17 +1648,6 @@ namespace Course_Scheduler_App
             this.groupBox2.TabStop = false;
             this.groupBox2.Visible = false;
             // 
-            // addButton2
-            // 
-            this.addButton2.Location = new System.Drawing.Point(471, 711);
-            this.addButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addButton2.Name = "addButton2";
-            this.addButton2.Size = new System.Drawing.Size(107, 28);
-            this.addButton2.TabIndex = 55;
-            this.addButton2.Text = "Add Course(s)";
-            this.addButton2.UseVisualStyleBackColor = true;
-            this.addButton2.Click += new System.EventHandler(this.addButton2_Click);
-            // 
             // Csubj2
             // 
             this.Csubj2.AutoSize = true;
@@ -2373,6 +2362,17 @@ namespace Course_Scheduler_App
             this.checkBox8.TabIndex = 56;
             this.checkBox8.UseVisualStyleBackColor = true;
             // 
+            // addButton2
+            // 
+            this.addButton2.Location = new System.Drawing.Point(471, 711);
+            this.addButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addButton2.Name = "addButton2";
+            this.addButton2.Size = new System.Drawing.Size(107, 28);
+            this.addButton2.TabIndex = 55;
+            this.addButton2.Text = "Add Course(s)";
+            this.addButton2.UseVisualStyleBackColor = true;
+            this.addButton2.Click += new System.EventHandler(this.addButton2_Click);
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -2561,7 +2561,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Sno1;
         private System.Windows.Forms.Label label81;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button addButton2;
         private System.Windows.Forms.Label Csubj2;
         private System.Windows.Forms.Label Croom2;
         private System.Windows.Forms.Label Cbuild2;
@@ -2656,5 +2655,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.Button addButton2;
     }
 }
