@@ -17,22 +17,23 @@ namespace Course_Scheduler_App
         List<Course> listOfStudentCourses = new List<Course>();
         int numberOfStudentCourses = 0;
 
-        List<CheckBox> listOfCheckBoxes = new List<CheckBox>();
-        
+        List<CheckBox> listOfCheckBoxes1 = new List<CheckBox>();
+        List<CheckBox> listOfCheckBoxes2 = new List<CheckBox>();
+
 
 
         public Form3()
         {
             InitializeComponent();
             displayCourses(listOfCoursesToDisplay, numberOfCoursesToDisplay);
-            listOfCheckBoxes.Add(checkBox1);
-            listOfCheckBoxes.Add(checkBox2);
-            listOfCheckBoxes.Add(checkBox3);
-            listOfCheckBoxes.Add(checkBox4);
-            listOfCheckBoxes.Add(checkBox5);
-            listOfCheckBoxes.Add(checkBox6);
-            listOfCheckBoxes.Add(checkBox7);
-            listOfCheckBoxes.Add(checkBox8);
+            listOfCheckBoxes1.Add(checkBox1);
+            listOfCheckBoxes1.Add(checkBox2);
+            listOfCheckBoxes1.Add(checkBox3);
+            listOfCheckBoxes1.Add(checkBox4);
+            listOfCheckBoxes1.Add(checkBox5);
+            listOfCheckBoxes1.Add(checkBox6);
+            listOfCheckBoxes1.Add(checkBox7);
+            listOfCheckBoxes1.Add(checkBox8);
         }
 
         private void displayCourses(List<Course> courseList, int numberOfCourses)
@@ -345,15 +346,46 @@ namespace Course_Scheduler_App
 
         private void addButton2_Click(object sender, EventArgs e)
         {
-            displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
-            foreach (CheckBox c in listOfCheckBoxes)
+            if(listOfStudentCourses.Count != 0)
             {
-                if(c.Checked == true)
+                displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
+                foreach (CheckBox c in listOfCheckBoxes)
                 {
-                    c.Visible = false;
+                    if (c.Checked == true)
+                    {
+                        c.Visible = false;
+                    }
                 }
+            }
+            else
+            {
+                MessageBox.Show("No courses are selected. Please select all courses you want to add.", "Error");
+            }
+            
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            if (listOfStudentCourses.Count != 0)
+            {
+                displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
+                foreach (CheckBox c in listOfCheckBoxes)
+                {
+                    if (c.Checked == true)
+                    {
+                        c.Visible = false;
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("No courses are selected. Please select all courses you want to remove or add if there are no student courses.", "Error");
             }
         }
 
+        private void removeCourseButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -41,6 +41,7 @@ namespace Course_Scheduler_App
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox17 = new System.Windows.Forms.GroupBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.Csubj8 = new System.Windows.Forms.Label();
             this.Croom8 = new System.Windows.Forms.Label();
             this.Cbuild8 = new System.Windows.Forms.Label();
@@ -51,6 +52,7 @@ namespace Course_Scheduler_App
             this.Cno8 = new System.Windows.Forms.Label();
             this.label72 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.Csubj7 = new System.Windows.Forms.Label();
             this.Croom7 = new System.Windows.Forms.Label();
             this.Cbuild7 = new System.Windows.Forms.Label();
@@ -61,6 +63,7 @@ namespace Course_Scheduler_App
             this.Cno7 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.Csubj6 = new System.Windows.Forms.Label();
             this.Croom6 = new System.Windows.Forms.Label();
             this.Cbuild6 = new System.Windows.Forms.Label();
@@ -71,6 +74,7 @@ namespace Course_Scheduler_App
             this.Cno6 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             this.Csubj5 = new System.Windows.Forms.Label();
             this.Croom5 = new System.Windows.Forms.Label();
             this.Cbuild5 = new System.Windows.Forms.Label();
@@ -81,6 +85,7 @@ namespace Course_Scheduler_App
             this.Cno5 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.Csubj4 = new System.Windows.Forms.Label();
             this.Croom4 = new System.Windows.Forms.Label();
             this.Cbuild4 = new System.Windows.Forms.Label();
@@ -91,6 +96,7 @@ namespace Course_Scheduler_App
             this.Cno4 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.Csubj3 = new System.Windows.Forms.Label();
             this.Croom3 = new System.Windows.Forms.Label();
             this.Cbuild3 = new System.Windows.Forms.Label();
@@ -101,6 +107,7 @@ namespace Course_Scheduler_App
             this.Cno3 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.Csubj1 = new System.Windows.Forms.Label();
             this.Croom1 = new System.Windows.Forms.Label();
             this.Cbuild1 = new System.Windows.Forms.Label();
@@ -112,7 +119,6 @@ namespace Course_Scheduler_App
             this.subj1 = new System.Windows.Forms.Label();
             this.groupBox18 = new System.Windows.Forms.GroupBox();
             this.groupBox15 = new System.Windows.Forms.GroupBox();
-            this.button15 = new System.Windows.Forms.Button();
             this.Ssubj7 = new System.Windows.Forms.Label();
             this.Sroom7 = new System.Windows.Forms.Label();
             this.Sbuild7 = new System.Windows.Forms.Label();
@@ -123,7 +129,6 @@ namespace Course_Scheduler_App
             this.Sno7 = new System.Windows.Forms.Label();
             this.label135 = new System.Windows.Forms.Label();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.button12 = new System.Windows.Forms.Button();
             this.Ssubj4 = new System.Windows.Forms.Label();
             this.Sroom4 = new System.Windows.Forms.Label();
             this.Sbuild4 = new System.Windows.Forms.Label();
@@ -134,7 +139,6 @@ namespace Course_Scheduler_App
             this.Sno4 = new System.Windows.Forms.Label();
             this.label108 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.removeButton1 = new System.Windows.Forms.Button();
             this.Ssubj1 = new System.Windows.Forms.Label();
             this.Sroom1 = new System.Windows.Forms.Label();
             this.Sbuild1 = new System.Windows.Forms.Label();
@@ -162,6 +166,7 @@ namespace Course_Scheduler_App
             this.comboBox15 = new System.Windows.Forms.ComboBox();
             this.comboBox16 = new System.Windows.Forms.ComboBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.Csubj2 = new System.Windows.Forms.Label();
             this.Croom2 = new System.Windows.Forms.Label();
             this.Cbuild2 = new System.Windows.Forms.Label();
@@ -172,7 +177,6 @@ namespace Course_Scheduler_App
             this.Cno2 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.button10 = new System.Windows.Forms.Button();
             this.Ssubj2 = new System.Windows.Forms.Label();
             this.Sroom2 = new System.Windows.Forms.Label();
             this.Sbuild2 = new System.Windows.Forms.Label();
@@ -183,7 +187,6 @@ namespace Course_Scheduler_App
             this.Sno2 = new System.Windows.Forms.Label();
             this.label90 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.button11 = new System.Windows.Forms.Button();
             this.Ssubj3 = new System.Windows.Forms.Label();
             this.Sroom3 = new System.Windows.Forms.Label();
             this.Sbuild3 = new System.Windows.Forms.Label();
@@ -194,7 +197,6 @@ namespace Course_Scheduler_App
             this.Sno3 = new System.Windows.Forms.Label();
             this.label99 = new System.Windows.Forms.Label();
             this.groupBox13 = new System.Windows.Forms.GroupBox();
-            this.button13 = new System.Windows.Forms.Button();
             this.Ssubj5 = new System.Windows.Forms.Label();
             this.Sroom5 = new System.Windows.Forms.Label();
             this.Sbuild5 = new System.Windows.Forms.Label();
@@ -205,7 +207,6 @@ namespace Course_Scheduler_App
             this.Sno5 = new System.Windows.Forms.Label();
             this.label117 = new System.Windows.Forms.Label();
             this.groupBox14 = new System.Windows.Forms.GroupBox();
-            this.button14 = new System.Windows.Forms.Button();
             this.Ssubj6 = new System.Windows.Forms.Label();
             this.Sroom6 = new System.Windows.Forms.Label();
             this.Sbuild6 = new System.Windows.Forms.Label();
@@ -216,7 +217,6 @@ namespace Course_Scheduler_App
             this.Sno6 = new System.Windows.Forms.Label();
             this.label126 = new System.Windows.Forms.Label();
             this.groupBox16 = new System.Windows.Forms.GroupBox();
-            this.button16 = new System.Windows.Forms.Button();
             this.Ssubj8 = new System.Windows.Forms.Label();
             this.Sroom8 = new System.Windows.Forms.Label();
             this.Sbuild8 = new System.Windows.Forms.Label();
@@ -226,15 +226,16 @@ namespace Course_Scheduler_App
             this.Sinstr8 = new System.Windows.Forms.Label();
             this.Sno8 = new System.Windows.Forms.Label();
             this.label144 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.addButton2 = new System.Windows.Forms.Button();
+            this.addCourseButton = new System.Windows.Forms.Button();
+            this.removeCourseButton = new System.Windows.Forms.Button();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.checkBox14 = new System.Windows.Forms.CheckBox();
+            this.checkBox15 = new System.Windows.Forms.CheckBox();
+            this.checkBox16 = new System.Windows.Forms.CheckBox();
+            this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.groupBox17.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox7.SuspendLayout();
@@ -405,6 +406,15 @@ namespace Course_Scheduler_App
             this.groupBox8.TabStop = false;
             this.groupBox8.Visible = false;
             // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(7, 26);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(18, 17);
+            this.checkBox8.TabIndex = 56;
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
             // Csubj8
             // 
             this.Csubj8.AutoSize = true;
@@ -506,6 +516,15 @@ namespace Course_Scheduler_App
             this.groupBox7.TabIndex = 56;
             this.groupBox7.TabStop = false;
             this.groupBox7.Visible = false;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(7, 24);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(18, 17);
+            this.checkBox7.TabIndex = 56;
+            this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // Csubj7
             // 
@@ -609,6 +628,15 @@ namespace Course_Scheduler_App
             this.groupBox6.TabStop = false;
             this.groupBox6.Visible = false;
             // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(7, 22);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(18, 17);
+            this.checkBox6.TabIndex = 56;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
             // Csubj6
             // 
             this.Csubj6.AutoSize = true;
@@ -710,6 +738,15 @@ namespace Course_Scheduler_App
             this.groupBox5.TabIndex = 56;
             this.groupBox5.TabStop = false;
             this.groupBox5.Visible = false;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(7, 24);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(18, 17);
+            this.checkBox5.TabIndex = 56;
+            this.checkBox5.UseVisualStyleBackColor = true;
             // 
             // Csubj5
             // 
@@ -813,6 +850,15 @@ namespace Course_Scheduler_App
             this.groupBox4.TabStop = false;
             this.groupBox4.Visible = false;
             // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(7, 24);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(18, 17);
+            this.checkBox4.TabIndex = 56;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
             // Csubj4
             // 
             this.Csubj4.AutoSize = true;
@@ -914,6 +960,15 @@ namespace Course_Scheduler_App
             this.groupBox3.TabIndex = 56;
             this.groupBox3.TabStop = false;
             this.groupBox3.Visible = false;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(7, 24);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(18, 17);
+            this.checkBox3.TabIndex = 56;
+            this.checkBox3.UseVisualStyleBackColor = true;
             // 
             // Csubj3
             // 
@@ -1017,6 +1072,16 @@ namespace Course_Scheduler_App
             this.groupBox1.TabStop = false;
             this.groupBox1.Visible = false;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(7, 22);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(18, 17);
+            this.checkBox1.TabIndex = 55;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // Csubj1
             // 
             this.Csubj1.AutoSize = true;
@@ -1114,7 +1179,7 @@ namespace Course_Scheduler_App
             // groupBox15
             // 
             this.groupBox15.AccessibleName = "1";
-            this.groupBox15.Controls.Add(this.button15);
+            this.groupBox15.Controls.Add(this.checkBox16);
             this.groupBox15.Controls.Add(this.Ssubj7);
             this.groupBox15.Controls.Add(this.Sroom7);
             this.groupBox15.Controls.Add(this.Sbuild7);
@@ -1132,16 +1197,6 @@ namespace Course_Scheduler_App
             this.groupBox15.TabIndex = 63;
             this.groupBox15.TabStop = false;
             this.groupBox15.Visible = false;
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(0, 17);
-            this.button15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 25);
-            this.button15.TabIndex = 55;
-            this.button15.Text = "Remove";
-            this.button15.UseVisualStyleBackColor = true;
             // 
             // Ssubj7
             // 
@@ -1226,7 +1281,7 @@ namespace Course_Scheduler_App
             // groupBox12
             // 
             this.groupBox12.AccessibleName = "1";
-            this.groupBox12.Controls.Add(this.button12);
+            this.groupBox12.Controls.Add(this.checkBox13);
             this.groupBox12.Controls.Add(this.Ssubj4);
             this.groupBox12.Controls.Add(this.Sroom4);
             this.groupBox12.Controls.Add(this.Sbuild4);
@@ -1244,16 +1299,6 @@ namespace Course_Scheduler_App
             this.groupBox12.TabIndex = 63;
             this.groupBox12.TabStop = false;
             this.groupBox12.Visible = false;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(0, 17);
-            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 25);
-            this.button12.TabIndex = 55;
-            this.button12.Text = "Remove";
-            this.button12.UseVisualStyleBackColor = true;
             // 
             // Ssubj4
             // 
@@ -1338,7 +1383,7 @@ namespace Course_Scheduler_App
             // groupBox9
             // 
             this.groupBox9.AccessibleName = "1";
-            this.groupBox9.Controls.Add(this.removeButton1);
+            this.groupBox9.Controls.Add(this.checkBox10);
             this.groupBox9.Controls.Add(this.Ssubj1);
             this.groupBox9.Controls.Add(this.Sroom1);
             this.groupBox9.Controls.Add(this.Sbuild1);
@@ -1356,16 +1401,6 @@ namespace Course_Scheduler_App
             this.groupBox9.TabIndex = 62;
             this.groupBox9.TabStop = false;
             this.groupBox9.Visible = false;
-            // 
-            // removeButton1
-            // 
-            this.removeButton1.Location = new System.Drawing.Point(0, 17);
-            this.removeButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.removeButton1.Name = "removeButton1";
-            this.removeButton1.Size = new System.Drawing.Size(75, 25);
-            this.removeButton1.TabIndex = 55;
-            this.removeButton1.Text = "Remove";
-            this.removeButton1.UseVisualStyleBackColor = true;
             // 
             // Ssubj1
             // 
@@ -1648,6 +1683,16 @@ namespace Course_Scheduler_App
             this.groupBox2.TabStop = false;
             this.groupBox2.Visible = false;
             // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(6, 22);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(18, 17);
+            this.checkBox2.TabIndex = 56;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
             // Csubj2
             // 
             this.Csubj2.AutoSize = true;
@@ -1731,7 +1776,7 @@ namespace Course_Scheduler_App
             // groupBox10
             // 
             this.groupBox10.AccessibleName = "1";
-            this.groupBox10.Controls.Add(this.button10);
+            this.groupBox10.Controls.Add(this.checkBox11);
             this.groupBox10.Controls.Add(this.Ssubj2);
             this.groupBox10.Controls.Add(this.Sroom2);
             this.groupBox10.Controls.Add(this.Sbuild2);
@@ -1749,16 +1794,6 @@ namespace Course_Scheduler_App
             this.groupBox10.TabIndex = 63;
             this.groupBox10.TabStop = false;
             this.groupBox10.Visible = false;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(0, 17);
-            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 25);
-            this.button10.TabIndex = 55;
-            this.button10.Text = "Remove";
-            this.button10.UseVisualStyleBackColor = true;
             // 
             // Ssubj2
             // 
@@ -1843,7 +1878,7 @@ namespace Course_Scheduler_App
             // groupBox11
             // 
             this.groupBox11.AccessibleName = "1";
-            this.groupBox11.Controls.Add(this.button11);
+            this.groupBox11.Controls.Add(this.checkBox12);
             this.groupBox11.Controls.Add(this.Ssubj3);
             this.groupBox11.Controls.Add(this.Sroom3);
             this.groupBox11.Controls.Add(this.Sbuild3);
@@ -1861,16 +1896,6 @@ namespace Course_Scheduler_App
             this.groupBox11.TabIndex = 63;
             this.groupBox11.TabStop = false;
             this.groupBox11.Visible = false;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(0, 17);
-            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 25);
-            this.button11.TabIndex = 55;
-            this.button11.Text = "Remove";
-            this.button11.UseVisualStyleBackColor = true;
             // 
             // Ssubj3
             // 
@@ -1955,7 +1980,7 @@ namespace Course_Scheduler_App
             // groupBox13
             // 
             this.groupBox13.AccessibleName = "1";
-            this.groupBox13.Controls.Add(this.button13);
+            this.groupBox13.Controls.Add(this.checkBox14);
             this.groupBox13.Controls.Add(this.Ssubj5);
             this.groupBox13.Controls.Add(this.Sroom5);
             this.groupBox13.Controls.Add(this.Sbuild5);
@@ -1973,16 +1998,6 @@ namespace Course_Scheduler_App
             this.groupBox13.TabIndex = 63;
             this.groupBox13.TabStop = false;
             this.groupBox13.Visible = false;
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(0, 17);
-            this.button13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 25);
-            this.button13.TabIndex = 55;
-            this.button13.Text = "Remove";
-            this.button13.UseVisualStyleBackColor = true;
             // 
             // Ssubj5
             // 
@@ -2067,7 +2082,7 @@ namespace Course_Scheduler_App
             // groupBox14
             // 
             this.groupBox14.AccessibleName = "1";
-            this.groupBox14.Controls.Add(this.button14);
+            this.groupBox14.Controls.Add(this.checkBox15);
             this.groupBox14.Controls.Add(this.Ssubj6);
             this.groupBox14.Controls.Add(this.Sroom6);
             this.groupBox14.Controls.Add(this.Sbuild6);
@@ -2085,16 +2100,6 @@ namespace Course_Scheduler_App
             this.groupBox14.TabIndex = 63;
             this.groupBox14.TabStop = false;
             this.groupBox14.Visible = false;
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(0, 17);
-            this.button14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 25);
-            this.button14.TabIndex = 55;
-            this.button14.Text = "Remove";
-            this.button14.UseVisualStyleBackColor = true;
             // 
             // Ssubj6
             // 
@@ -2179,7 +2184,7 @@ namespace Course_Scheduler_App
             // groupBox16
             // 
             this.groupBox16.AccessibleName = "1";
-            this.groupBox16.Controls.Add(this.button16);
+            this.groupBox16.Controls.Add(this.checkBox17);
             this.groupBox16.Controls.Add(this.Ssubj8);
             this.groupBox16.Controls.Add(this.Sroom8);
             this.groupBox16.Controls.Add(this.Sbuild8);
@@ -2197,16 +2202,6 @@ namespace Course_Scheduler_App
             this.groupBox16.TabIndex = 63;
             this.groupBox16.TabStop = false;
             this.groupBox16.Visible = false;
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(0, 17);
-            this.button16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 25);
-            this.button16.TabIndex = 55;
-            this.button16.Text = "Remove";
-            this.button16.UseVisualStyleBackColor = true;
             // 
             // Ssubj8
             // 
@@ -2288,97 +2283,107 @@ namespace Course_Scheduler_App
             this.label144.Size = new System.Drawing.Size(0, 17);
             this.label144.TabIndex = 46;
             // 
-            // checkBox1
+            // addCourseButton
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(7, 22);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(18, 17);
-            this.checkBox1.TabIndex = 55;
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.addCourseButton.Location = new System.Drawing.Point(113, 711);
+            this.addCourseButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.addCourseButton.Name = "addCourseButton";
+            this.addCourseButton.Size = new System.Drawing.Size(107, 28);
+            this.addCourseButton.TabIndex = 55;
+            this.addCourseButton.Text = "Add Course(s)";
+            this.addCourseButton.UseVisualStyleBackColor = true;
+            this.addCourseButton.Click += new System.EventHandler(this.addButton2_Click);
             // 
-            // checkBox2
+            // removeCourseButton
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(6, 22);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(18, 17);
-            this.checkBox2.TabIndex = 56;
-            this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            this.removeCourseButton.Location = new System.Drawing.Point(908, 711);
+            this.removeCourseButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.removeCourseButton.Name = "removeCourseButton";
+            this.removeCourseButton.Size = new System.Drawing.Size(107, 28);
+            this.removeCourseButton.TabIndex = 66;
+            this.removeCourseButton.Text = "Remove Course(s)";
+            this.removeCourseButton.UseVisualStyleBackColor = true;
+            this.removeCourseButton.Click += new System.EventHandler(this.removeCourseButton_Click);
             // 
-            // checkBox3
+            // checkBox10
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(7, 24);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(18, 17);
-            this.checkBox3.TabIndex = 56;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(6, 24);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(18, 17);
+            this.checkBox10.TabIndex = 56;
+            this.checkBox10.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // checkBox11
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(7, 24);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(18, 17);
-            this.checkBox4.TabIndex = 56;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Location = new System.Drawing.Point(6, 24);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(18, 17);
+            this.checkBox11.TabIndex = 57;
+            this.checkBox11.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // checkBox12
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(7, 24);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(18, 17);
-            this.checkBox5.TabIndex = 56;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(6, 22);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(18, 17);
+            this.checkBox12.TabIndex = 58;
+            this.checkBox12.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // checkBox13
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(7, 22);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(18, 17);
-            this.checkBox6.TabIndex = 56;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(6, 24);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(18, 17);
+            this.checkBox13.TabIndex = 59;
+            this.checkBox13.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // checkBox14
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(7, 24);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(18, 17);
-            this.checkBox7.TabIndex = 56;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox14.AutoSize = true;
+            this.checkBox14.Location = new System.Drawing.Point(6, 24);
+            this.checkBox14.Name = "checkBox14";
+            this.checkBox14.Size = new System.Drawing.Size(18, 17);
+            this.checkBox14.TabIndex = 60;
+            this.checkBox14.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // checkBox15
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(7, 26);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(18, 17);
-            this.checkBox8.TabIndex = 56;
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox15.AutoSize = true;
+            this.checkBox15.Location = new System.Drawing.Point(6, 22);
+            this.checkBox15.Name = "checkBox15";
+            this.checkBox15.Size = new System.Drawing.Size(18, 17);
+            this.checkBox15.TabIndex = 61;
+            this.checkBox15.UseVisualStyleBackColor = true;
             // 
-            // addButton2
+            // checkBox16
             // 
-            this.addButton2.Location = new System.Drawing.Point(471, 711);
-            this.addButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.addButton2.Name = "addButton2";
-            this.addButton2.Size = new System.Drawing.Size(107, 28);
-            this.addButton2.TabIndex = 55;
-            this.addButton2.Text = "Add Course(s)";
-            this.addButton2.UseVisualStyleBackColor = true;
-            this.addButton2.Click += new System.EventHandler(this.addButton2_Click);
+            this.checkBox16.AutoSize = true;
+            this.checkBox16.Location = new System.Drawing.Point(6, 22);
+            this.checkBox16.Name = "checkBox16";
+            this.checkBox16.Size = new System.Drawing.Size(18, 17);
+            this.checkBox16.TabIndex = 62;
+            this.checkBox16.UseVisualStyleBackColor = true;
+            // 
+            // checkBox17
+            // 
+            this.checkBox17.AutoSize = true;
+            this.checkBox17.Location = new System.Drawing.Point(6, 22);
+            this.checkBox17.Name = "checkBox17";
+            this.checkBox17.Size = new System.Drawing.Size(18, 17);
+            this.checkBox17.TabIndex = 63;
+            this.checkBox17.UseVisualStyleBackColor = true;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1831, 870);
-            this.Controls.Add(this.addButton2);
+            this.Controls.Add(this.removeCourseButton);
+            this.Controls.Add(this.addCourseButton);
             this.Controls.Add(this.groupBox16);
             this.Controls.Add(this.groupBox14);
             this.Controls.Add(this.groupBox13);
@@ -2550,7 +2555,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Cno3;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.Button removeButton1;
         private System.Windows.Forms.Label Ssubj1;
         private System.Windows.Forms.Label Sroom1;
         private System.Windows.Forms.Label Sbuild1;
@@ -2571,7 +2575,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Cno2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.GroupBox groupBox15;
-        private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Label Ssubj7;
         private System.Windows.Forms.Label Sroom7;
         private System.Windows.Forms.Label Sbuild7;
@@ -2582,7 +2585,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Sno7;
         private System.Windows.Forms.Label label135;
         private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Label Ssubj4;
         private System.Windows.Forms.Label Sroom4;
         private System.Windows.Forms.Label Sbuild4;
@@ -2593,7 +2595,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Sno4;
         private System.Windows.Forms.Label label108;
         private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Label Ssubj2;
         private System.Windows.Forms.Label Sroom2;
         private System.Windows.Forms.Label Sbuild2;
@@ -2604,7 +2605,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Sno2;
         private System.Windows.Forms.Label label90;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label Ssubj3;
         private System.Windows.Forms.Label Sroom3;
         private System.Windows.Forms.Label Sbuild3;
@@ -2615,7 +2615,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Sno3;
         private System.Windows.Forms.Label label99;
         private System.Windows.Forms.GroupBox groupBox13;
-        private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Label Ssubj5;
         private System.Windows.Forms.Label Sroom5;
         private System.Windows.Forms.Label Sbuild5;
@@ -2626,7 +2625,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Sno5;
         private System.Windows.Forms.Label label117;
         private System.Windows.Forms.GroupBox groupBox14;
-        private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Label Ssubj6;
         private System.Windows.Forms.Label Sroom6;
         private System.Windows.Forms.Label Sbuild6;
@@ -2637,7 +2635,6 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.Label Sno6;
         private System.Windows.Forms.Label label126;
         private System.Windows.Forms.GroupBox groupBox16;
-        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Label Ssubj8;
         private System.Windows.Forms.Label Sroom8;
         private System.Windows.Forms.Label Sbuild8;
@@ -2655,6 +2652,15 @@ namespace Course_Scheduler_App
         private System.Windows.Forms.CheckBox checkBox5;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.Button addButton2;
+        private System.Windows.Forms.Button addCourseButton;
+        private System.Windows.Forms.Button removeCourseButton;
+        private System.Windows.Forms.CheckBox checkBox16;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox checkBox14;
+        private System.Windows.Forms.CheckBox checkBox15;
+        private System.Windows.Forms.CheckBox checkBox17;
     }
 }
