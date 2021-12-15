@@ -103,5 +103,10 @@ namespace Course_Scheduler_App
   {
       groupBox7.Controls.Add(test);
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
