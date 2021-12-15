@@ -148,7 +148,7 @@ namespace Course_Scheduler_App
       groupBox7.Controls.Add(test);
         }
 
-        private void groupBox2_Enter(object sender, EventArgs e)
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
