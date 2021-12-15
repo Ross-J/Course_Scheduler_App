@@ -14,6 +14,8 @@ namespace Course_Scheduler_App
     {
         List<Course> listOfCoursesToDisplay = Form1.listOfAllCourses;
         int numberOfCoursesToDisplay = Form1.numberOfCourses;
+        List<Course> listOfInstructorCourses = new List<Course>();
+
 
 
         public Form2()
@@ -110,8 +112,8 @@ namespace Course_Scheduler_App
             listOfGroupBoxes.Add(groupBox4);
             listOfGroupBoxes.Add(groupBox5);
             listOfGroupBoxes.Add(groupBox6);
-            listOfGroupBoxes.Add(groupBox7);
             listOfGroupBoxes.Add(groupBox8);
+            listOfGroupBoxes.Add(groupBox9);
 
             int pos = 0;
             for (int i = 0; i < numberOfCourses; i++)
@@ -246,42 +248,8 @@ namespace Course_Scheduler_App
             this.Hide();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox7_Enter(object sender, EventArgs e)
-        {
-            this.Controls.Add(Parent);
-        }
-
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            string selectedInstructor = comboBox1.Text;
-            List<Course> listOfCoursesWithInstructor = new List<Course>();
-            int numberOfInstructorCourses = 0;
-            foreach (Course c in listOfCoursesToDisplay)
-            {
-                if (c.Instructor == selectedInstructor)
-                {
-                    listOfCoursesWithInstructor.Add(c);
-                    numberOfInstructorCourses++;
-                }
-
-            }
-            //displayCourses(listOfCoursesWithInstructor, numberOfInstructorCourses);
-        }
-
-        private void groupBox11_Enter(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void Createlabel(Label test)
-        {
-
+        { 
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -289,19 +257,17 @@ namespace Course_Scheduler_App
 
         }
 
-        /*
         private bool checkForInstructorConflicts()
         {
-           
             bool isConflicts = false;
 
-            foreach (Course c in listOfCoursesWithInstructor)
+            foreach (Course c in listOfInstructorCourses)
             {
-                foreach (Course c2 in listOfCoursesWithInstructor)
+                foreach (Course c2 in listOfInstructorCourses)
                 {
                     if (c2 != c)
                     {
-                        if (c2.startTime == c.startTime)
+                        if (c2.StartTime == c.StartTime)
                         {
                             if (c2.Days == c2.Days)
                             {
@@ -314,11 +280,50 @@ namespace Course_Scheduler_App
 
             return isConflicts;
         }
-        */
 
-        private void button2_Click(object sender, EventArgs e)
+
+
+        private void button3_Click(object sender, EventArgs e)
         {
+            string selectedInstructor = comboBox1.Text;
+            List<Course> listOfCoursesWithInstructor = new List<Course>();
+            int numberOfInstructorCourses = 0;
+            foreach (Course c in listOfCoursesToDisplay)
+            {
+                if (c.Instructor == selectedInstructor)
+                {
+                    listOfCoursesWithInstructor.Add(c);
+                    numberOfInstructorCourses++;
+                }
+            }
+            groupBox1.Visible = false;
+            groupBox2.Visible = false;
+            groupBox3.Visible = false;
+            groupBox4.Visible = false;
+            groupBox5.Visible = false;
+            groupBox6.Visible = false;
+            groupBox8.Visible = false;
+            groupBox9.Visible = false;
+            listOfInstructorCourses = listOfCoursesWithInstructor;
+            displayCourses(listOfCoursesWithInstructor, numberOfInstructorCourses);
 
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            bool conflicts = checkForInstructorConflicts();
+            if (conflicts == true)
+            {
+                label1.Visible = true;
+                label1.ForeColor = System.Drawing.Color.Red;
+                label1.Text = "Time conflicts exist in the instructor schedule.";
+            }
+            else
+            {
+                label1.Visible = true;
+                label1.ForeColor = System.Drawing.Color.Green;
+                label1.Text = "No time conflicts exist in the instructor schedule.";
+            }
         }
     }
 }
