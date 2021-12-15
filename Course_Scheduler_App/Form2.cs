@@ -20,22 +20,136 @@ namespace Course_Scheduler_App
         {
             InitializeComponent();
             //richTextBox1.Text = Form1.fileContent;
-            displayCourses();
+            //displayCourses();
         }
 
-        private void displayCourses()
+        private void displayCourses(List<Course> courseList, int numberOfCourses)
         {
-            for (int i = 0; i < numberOfCoursesToDisplay; i++) 
-            { 
-                if (listOfCoursesToDisplay != null)
-                {
+
+
+            List<Label> listOfLabels = new List<Label>();
+            List<GroupBox> listOfGroupBoxes = new List<GroupBox>();
+
+
+            listOfLabels.Add(Csubj1);
+            listOfLabels.Add(Cno1);
+            listOfLabels.Add(Cinstr1);
+            listOfLabels.Add(Cday1);
+            listOfLabels.Add(Cstart1);
+            listOfLabels.Add(Cend1);
+            listOfLabels.Add(Cbuild1);
+            listOfLabels.Add(Croom1);
+
+            listOfLabels.Add(Csubj2);
+            listOfLabels.Add(Cno2);
+            listOfLabels.Add(Cinstr2);
+            listOfLabels.Add(Cday2);
+            listOfLabels.Add(Cstart2);
+            listOfLabels.Add(Cend2);
+            listOfLabels.Add(Cbuild2);
+            listOfLabels.Add(Croom2);
+
+            listOfLabels.Add(Csubj3);
+            listOfLabels.Add(Cno3);
+            listOfLabels.Add(Cinstr3);
+            listOfLabels.Add(Cday3);
+            listOfLabels.Add(Cstart3);
+            listOfLabels.Add(Cend3);
+            listOfLabels.Add(Cbuild3);
+            listOfLabels.Add(Croom3);
+
+            listOfLabels.Add(Csubj4);
+            listOfLabels.Add(Cno4);
+            listOfLabels.Add(Cinstr4);
+            listOfLabels.Add(Cday4);
+            listOfLabels.Add(Cstart4);
+            listOfLabels.Add(Cend4);
+            listOfLabels.Add(Cbuild4);
+            listOfLabels.Add(Croom4);
+
+            listOfLabels.Add(Csubj5);
+            listOfLabels.Add(Cno5);
+            listOfLabels.Add(Cinstr5);
+            listOfLabels.Add(Cday5);
+            listOfLabels.Add(Cstart5);
+            listOfLabels.Add(Cend5);
+            listOfLabels.Add(Cbuild5);
+            listOfLabels.Add(Croom5);
+
+            listOfLabels.Add(Csubj6);
+            listOfLabels.Add(Cno6);
+            listOfLabels.Add(Cinstr6);
+            listOfLabels.Add(Cday6);
+            listOfLabels.Add(Cstart6);
+            listOfLabels.Add(Cend6);
+            listOfLabels.Add(Cbuild6);
+            listOfLabels.Add(Croom6);
+
+            listOfLabels.Add(Csubj7);
+            listOfLabels.Add(Cno7);
+            listOfLabels.Add(Cinstr7);
+            listOfLabels.Add(Cday7);
+            listOfLabels.Add(Cstart7);
+            listOfLabels.Add(Cend7);
+            listOfLabels.Add(Cbuild7);
+            listOfLabels.Add(Croom7);
+
+            listOfLabels.Add(Csubj8);
+            listOfLabels.Add(Cno8);
+            listOfLabels.Add(Cinstr8);
+            listOfLabels.Add(Cday8);
+            listOfLabels.Add(Cstart8);
+            listOfLabels.Add(Cend8);
+            listOfLabels.Add(Cbuild8);
+            listOfLabels.Add(Croom8);
+
+            listOfGroupBoxes.Add(groupBox1);
+            listOfGroupBoxes.Add(groupBox2);
+            listOfGroupBoxes.Add(groupBox3);
+            listOfGroupBoxes.Add(groupBox4);
+            listOfGroupBoxes.Add(groupBox5);
+            listOfGroupBoxes.Add(groupBox6);
+            listOfGroupBoxes.Add(groupBox7);
+            listOfGroupBoxes.Add(groupBox8);
+
+            int pos = 0;
+            for (int i = 0; i < numberOfCourses; i++)
+            {
+                Course c = courseList[i];
+                GroupBox g = listOfGroupBoxes[i];
+                listOfLabels[pos].Text = c.Subject;
+                listOfLabels[pos + 1].Text = c.Number;
+                listOfLabels[pos + 2].Text = c.Instructor;
+                listOfLabels[pos + 3].Text = c.Days;
+                listOfLabels[pos + 4].Text = c.StartTime;
+                listOfLabels[pos + 5].Text = c.EndTime;
+                listOfLabels[pos + 6].Text = c.Building;
+                listOfLabels[pos + 7].Text = c.Room;
+
+                g.Visible = true;
+                pos = pos + 8;
+            }
+
+
+
+
+
+        }
+            
+            
+            
+            
+            // for (int i = 0; i < numberOfCoursesToDisplay; i++) 
+             
+                //if (listOfCoursesToDisplay != null)
+                
                     
                     
-                    foreach (Course kv in listOfCoursesToDisplay)
-                    {
-                        var groupbox = new GroupBox();
+                    //foreach (Course kv in listOfCoursesToDisplay)
+                    
+                       // var groupbox = new GroupBox();
                         
-                        var label = new Label();
+                        /*var label = new Label();
                         label.Text = kv.Subject;
                         this.Controls.Add(label);
                         label.Location = new System.Drawing.Point(200 * (i + 1), 15 * (i + 1));
@@ -82,12 +196,12 @@ namespace Course_Scheduler_App
                         this.Controls.Add(label8);
                         label8.Location = new System.Drawing.Point(900 * (i + 1), 15 * (i + 1));
                         label8.Size = new System.Drawing.Size(41, 13);
-                        
+                        */
 
-                    }
-                }
-            }
-        }
+                    
+                
+            
+        
             
                 
             
