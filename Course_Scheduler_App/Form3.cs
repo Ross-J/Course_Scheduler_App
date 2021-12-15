@@ -357,11 +357,74 @@ namespace Course_Scheduler_App
 
         private void removeCourseButton_Click(object sender, EventArgs e)
         {
-
+            groupBox9.Visible = false;
+            groupBox10.Visible = false;
+            groupBox11.Visible = false;
+            groupBox12.Visible = false;
+            groupBox13.Visible = false;
+            groupBox14.Visible = false;
+            groupBox15.Visible = false;
+            groupBox16.Visible = false;
+            if(numberOfStudentCourses != 0)
+            {
+                displayStudentCourses(listOfStudentCourses, numberOfStudentCourses);
+            }
         }
 
         private void checkBox10_CheckedChanged(object sender, EventArgs e)
         {
+            listOfStudentCourses.RemoveAt(0);
+            numberOfStudentCourses--;
+        }
+
+        private void checkBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            listOfStudentCourses.RemoveAt(1);
+            numberOfStudentCourses--;
+        }
+
+        private void checkBox12_CheckedChanged(object sender, EventArgs e)
+        {
+            listOfStudentCourses.RemoveAt(2);
+            numberOfStudentCourses--;
+        }
+
+        private void checkBox13_CheckedChanged(object sender, EventArgs e)
+        {
+            listOfStudentCourses.RemoveAt(3);
+            numberOfStudentCourses--;
+        }
+
+        private void checkBox14_CheckedChanged(object sender, EventArgs e)
+        {
+            listOfStudentCourses.RemoveAt(4);
+            numberOfStudentCourses--;
+        }
+
+        private void checkBox15_CheckedChanged(object sender, EventArgs e)
+        {
+            listOfStudentCourses.RemoveAt(5);
+            numberOfStudentCourses--;
+        }
+
+        private void checkBox16_CheckedChanged(object sender, EventArgs e)
+        {
+            listOfStudentCourses.RemoveAt(6);
+            numberOfStudentCourses--;
+        }
+
+        private void checkBox17_CheckedChanged(object sender, EventArgs e)
+        {
+            listOfStudentCourses.RemoveAt(7);
+            numberOfStudentCourses--;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            foreach (Course c in listOfStudentCourses)
+            {
+
+            }
         }
     }
 }
